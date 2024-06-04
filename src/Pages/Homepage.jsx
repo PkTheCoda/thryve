@@ -10,6 +10,7 @@ const Homepage = () => {
         <Navbar />
         <Hero />
         <MainFeatures />
+        <div className="py-4 bg-red-100">hi</div>
     </>
   )
 }
