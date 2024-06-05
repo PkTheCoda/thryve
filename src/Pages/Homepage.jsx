@@ -2,6 +2,8 @@ import React from 'react'
 import Hero from '../Components/Hero'
 import Navbar from '../Components/Navbar'
 import MainFeatures from '../Components/MainFeatures'
+import AboutPranav from '../Components/AboutPranav'
+import PricingHome from '../Components/PricingHome'
 
 
 const Homepage = () => {
@@ -10,7 +12,8 @@ const Homepage = () => {
         <Navbar />
         <Hero />
         <MainFeatures />
-        <div className="py-4 bg-red-100">hi</div>
+        {/* <AboutPranav /> */}
+        <PricingHome />
     </>
   )
 }

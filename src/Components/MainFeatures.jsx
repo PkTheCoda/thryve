@@ -32,7 +32,7 @@ const MainFeatures = () => {
                     </p>
                 </div>
 
-                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2'>
+                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2 shadow-md'>
                     <div className='flex flex-col gap-y-3 font-fig justify-center text-[#1D4B40]'>
                         <div className='p-2 rounded-md bg-[#1D4B40]/80 text-[#f3efef] w-max'>
                             <PiHandshakeFill className='w-8 h-8'/>
@@ -72,7 +72,7 @@ const MainFeatures = () => {
                     </div>
                 </div>
 
-                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2'>
+                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2 shadow-md'>
                     <div className="flex items-center">
                         <img src={webfeatureimage2} alt="" className='w-full'/>
                     </div>
@@ -112,7 +112,7 @@ const MainFeatures = () => {
                     </div>
                 </div>
 
-                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2'>
+                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2 shadow-md'>
                     <div className='flex flex-col gap-y-3 font-fig justify-center text-[#1D4B40]'>
                         <div className='p-2 rounded-md bg-[#1D4B40]/80 text-[#f3efef] w-max'>
                             <MdOutlineFitScreen className='w-8 h-8'/>
@@ -152,7 +152,7 @@ const MainFeatures = () => {
                     </div>
                 </div>
 
-                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2'>
+                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2 shadow-md'>
                     <div className="flex items-center">
                         <img src={webfeatureimage4} alt="" className='w-full'/>
                     </div>
