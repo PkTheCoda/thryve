@@ -1,7 +1,6 @@
 import React from 'react'
 import mockuphero from '../assets/mockuphero.png'
 import { FaClockRotateLeft } from "react-icons/fa6";
-import { ImCross } from "react-icons/im";
 
 const Hero = () => {
   return (
@@ -16,8 +15,8 @@ const Hero = () => {
           </h1>
 
           <p className='paragraph-responsive text-[#878785] leading-loose'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora suscipit quas voluptate voluptates reprehenderit culpa deleniti!
-            Optio blanditiis reprehenderit aliquam dolor distinctio.
+            Thryve specializes in small business web design and development for clients worldwide. Our websites are 
+            hand-coded without any page builders to ensure the best perfomance and maximum ranking!
           </p>
 
           <div class="dark:bg-gray-800 w-full flex justify-center items-center">

@@ -7,9 +7,9 @@ const PricingHome = () => {
         <div className="max-w-7xl py-4 w-full text-main flex flex-col gap-y-14">
 
             <div className='grid grid-cols-2 gap-10'>
-                <h1 className="six-title">
+                <h1 className="six-title pr-4">
                     Finally, a web-dev agency with crystal clear, 
-                    <span className="opacity-70">{' '}subscription-based pricing.</span>
+                    <span className="opacity-70">{' '}straight-forward pricing.</span>
                 </h1>
                 <div className='font-light text-xl text-slate-700 leading-8'>
                     <p className='mb-3'>

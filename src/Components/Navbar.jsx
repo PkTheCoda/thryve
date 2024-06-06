@@ -8,9 +8,7 @@ import thryvelogo from '../assets/thryvelogo1.png'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Services', href: '/services' },
   { name: 'Portfolio', href: '/portfolio' },
-  { name: 'Blog', href: '/blog' },
 
 ]
 
@@ -62,7 +60,7 @@ export default function Navbar() {
                 target='_blank'
                 className="text-lg font-normal transition300scale text-white bg-[#387e62] py-1 px-4 rounded-sm shadow-md font-outfit"
               >
-                Get a Quote
+                Contact Us
               </a>
             </div>
           </nav>

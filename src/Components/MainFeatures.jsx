@@ -26,9 +26,9 @@ const MainFeatures = () => {
                             Kind of Everything.
                         </h1>
                     </div>
-                    <p className='text-xl w-1/2 text-center text-[#bdbdbd]'>
-                        Here at Thryve, we handle everything you need to get your business up and moving. From web-design to web-development 
-                        to SEO, we do it all!
+                    <p className='text-xl w-1/2 font-light text-center text-secondary'>
+                        Here at Thryve, we handle everything you need to get your business' presence up and running. 
+                        From web-design to web-development to managing your site, we do it all!
                     </p>
                 </div>
 
