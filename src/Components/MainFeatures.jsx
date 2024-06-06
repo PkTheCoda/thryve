@@ -26,13 +26,13 @@ const MainFeatures = () => {
                             Kind of Everything.
                         </h1>
                     </div>
-                    <p className='text-xl w-1/2 font-light text-center text-secondary'>
+                    <p className='text-xl w-4/5 md:w-2/3 lg:w-1/2 font-light text-center text-secondary'>
                         Here at Thryve, we handle everything you need to get your business' presence up and running. 
                         From web-design to web-development to managing your site, we do it all!
                     </p>
                 </div>
 
-                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2 shadow-md'>
+                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-5 grid grid-cols-1 md:grid-cols-2 shadow-md'>
                     <div className='flex flex-col gap-y-3 font-fig justify-center text-[#1D4B40]'>
                         <div className='p-2 rounded-md bg-[#1D4B40]/80 text-[#f3efef] w-max'>
                             <PiHandshakeFill className='w-8 h-8'/>
@@ -72,11 +72,11 @@ const MainFeatures = () => {
                     </div>
                 </div>
 
-                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2 shadow-md'>
+                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-5 grid grid-cols-1 md:grid-cols-2 shadow-md'>
                     <div className="flex items-center">
                         <img src={webfeatureimage2} alt="" className='w-full'/>
                     </div>
-                    <div className='flex flex-col gap-y-3 font-fig justify-center text-[#1D4B40] pl-14'>
+                    <div className='flex flex-col gap-y-3 font-fig justify-center text-[#1D4B40] lg:pl-14'>
                         <div className='p-2 rounded-md bg-[#1D4B40]/80 text-[#f3efef] w-max'>
                             <TbExchange className='w-8 h-8'/>
                         </div>
@@ -112,7 +112,7 @@ const MainFeatures = () => {
                     </div>
                 </div>
 
-                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2 shadow-md'>
+                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-5 grid grid-cols-1 md:grid-cols-2 shadow-md'>
                     <div className='flex flex-col gap-y-3 font-fig justify-center text-[#1D4B40]'>
                         <div className='p-2 rounded-md bg-[#1D4B40]/80 text-[#f3efef] w-max'>
                             <MdOutlineFitScreen className='w-8 h-8'/>
@@ -152,11 +152,11 @@ const MainFeatures = () => {
                     </div>
                 </div>
 
-                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-x-5 grid grid-cols-2 shadow-md'>
+                <div className='p-10 bg-[#f3efef] text-slate-700 rounded-lg gap-5 grid grid-cols-1 md:grid-cols-2 shadow-md'>
                     <div className="flex items-center">
                         <img src={webfeatureimage4} alt="" className='w-full'/>
                     </div>
-                    <div className='flex flex-col gap-y-3 font-fig justify-center text-[#1D4B40] pl-14'>
+                    <div className='flex flex-col gap-y-3 font-fig justify-center text-[#1D4B40] lg:pl-14'>
                         <div className='p-2 rounded-md bg-[#1D4B40]/80 text-[#f3efef] w-max'>
                             <BsSpeedometer2 className='w-8 h-8'/>
                         </div>

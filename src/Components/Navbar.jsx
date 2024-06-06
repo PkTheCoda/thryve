@@ -17,9 +17,9 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="w-full z-50 top-0 bg-[#faf7ee] flex justify-center items-center">
+      <div className="px-10 w-full bg-[#faf7ee] flex justify-center items-center">
 
-        <header className="w-[100rem] z-50">
+        <header className="w-full z-50">
           <nav className="flex rounded-2xl items-center justify-between py-6" aria-label="Global">
             <div className="flex lg:flex-1">
               <a href="/" className="-m-1.5 p-1.5">
@@ -27,7 +27,7 @@ export default function Navbar() {
                 <img
                     className="h-8 w-auto"
                     src={thryvelogo}
-                    alt="An image of the Score1600 logo"
+                    alt="An image of the Thryve logo"
                     width="300"
                     height="100"
                   />
@@ -36,7 +36,7 @@ export default function Navbar() {
             <div className="flex lg:hidden">
               <button
                 type="button"
-                className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 hover:bg-[#a37f2e] hover:text-white transition transform duration-300"
+                className=" inline-flex items-center justify-center rounded-md p-2.5 hover:bg-[#a37f2e] hover:text-white transition transform duration-300"
                 onClick={() => setMobileMenuOpen(true)}
               >
                 <span className="sr-only">Open main menu</span>

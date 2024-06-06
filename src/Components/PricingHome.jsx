@@ -4,9 +4,9 @@ import { FaCircleCheck } from "react-icons/fa6";
 const PricingHome = () => {
   return (
     <div className='py-10 bg-main flex justify-center font-outfit'>
-        <div className="max-w-7xl py-4 w-full text-main flex flex-col gap-y-14">
+        <div className="max-w-7xl py-4 w-full text-main flex flex-col gap-y-14 px-4">
 
-            <div className='grid grid-cols-2 gap-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2'>
                 <h1 className="six-title pr-4">
                     Finally, a web-dev agency with crystal clear, 
                     <span className="opacity-70">{' '}straight-forward pricing.</span>
@@ -24,9 +24,9 @@ const PricingHome = () => {
                 </div>
             </div>
 
-            <div className='w-full flex gap-x-4'>
+            <div className='w-full flex md:flex-row flex-col gap-4'>
 
-                <div className='bg-secondary flex flex-col items-center gap-y-4 rounded-md w-7/12 p-10 text-white shadow-md'>
+                <div className='bg-secondary flex flex-col items-center gap-y-4 rounded-md md:w-7/12 p-10 text-white shadow-md'>
                     <h2 className="four-title w-full">
                         <span className="font-bold">$250</span> Down Payment, <span className="font-bold">$50</span> per month,
                         <span className="block opacity-70">3 Month Minimum Contract</span>
@@ -72,6 +72,16 @@ const PricingHome = () => {
                                 </h6>
                             </div>
                         </div>
+
+                        <div className="flex gap-x-2">
+                            <FaCircleCheck className='w-4 h-4 mt-2'/>
+                            <div>
+                                <p className="text-2xl">Cancel Plan, no worries.</p>
+                                <h6 className="text-md text-slate-300">
+                                    You'll keep your website how it is, your domain, and any other assets (logos, etc.).
+                                </h6>
+                            </div>
+                        </div>
                     </div>
                     <div className="w-full flex justify-end">
                         <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-main rounded-md shadow-md text-main transition300scale focus:outline-none">
@@ -80,23 +90,46 @@ const PricingHome = () => {
                     </div>
                 </div>
 
-                <div className='bg-white flex flex-col items-center gap-y-4 rounded-md w-5/12 p-10 text-main shadow-md h-max'>
-                    <div className='flex w-full flex-col gap-y-2'>
-                        <h2 className="four-title">
-                            Custom Contracts
-                        </h2>
-                        <p className='text-lg'>
-                            Need more than a standard 5-page business website? We'll do custom pricing 
-                            based on your scope of work, number of extra pages, and the time involved.
-                        </p>
+                <div className='md:w-5/12 flex flex-col justify-center gap-4'>
+                    <div className='bg-white flex flex-col h-max items-center gap-y-4 rounded-md w-full p-10 text-main shadow-md'>
+                        <div className='flex w-full flex-col gap-y-2'>
+                            <h2 className="four-title">
+                                Custom Contracts
+                            </h2>
+                            <p className='text-lg'>
+                                Need more than a standard 5-page business website? We'll do custom pricing
+                                based on your scope of work, number of extra pages, and the time involved.
+                            </p>
+                        </div>
+                        <div className='w-full border-t grid grid-cols-1 gap-6 border-slate-400 text-main'>
+                        </div>
+                        <div className="w-full flex justify-end">
+                            <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-secondary rounded-md shadow-md text-white transition300scale focus:outline-none">
+                                Book a Call
+                            </a>
+                        </div>
                     </div>
 
-                    <div className='w-full border-t grid grid-cols-1 gap-6 border-slate-400 text-main'>
-                    </div>
-                    <div className="w-full flex justify-end">
-                        <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-secondary rounded-md shadow-md text-white transition300scale focus:outline-none">
-                            Book a Call
-                        </a>
+                    <div className='bg-[#a98555] flex flex-col h-max items-center gap-y-4 rounded-md w-full p-10 text-white shadow-md'>
+                        <div className='flex w-full flex-col gap-y-2'>
+                            <h2 className="four-title">
+                                Website Redesigns
+                            </h2>
+                            <p className='text-lg'>
+                                Already have a website but want it redesigned? We'll do it for a 
+                                flat fee of <span className="font-semibold">$300</span> for a standard 5-page site.
+                                <br />
+                                <br />
+                                This includes websites built with page-builders such as <span className="font-semibold">Wordpress, Wix, Squarespace, etc.</span>
+                            </p>
+                        </div>
+                        <div className='w-full border-t grid grid-cols-1 gap-6 border-slate-100 text-main'>
+                        </div>
+                        <div className="w-full flex justify-end">
+                            <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-secondary rounded-md shadow-md text-white transition300scale focus:outline-none">
+                                Book a Call
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -5,9 +5,9 @@ import { FaClockRotateLeft } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div className='bg-[#faf7ee] font-outfit h-max py-10 flex flex-col items-center justify-center'>
-      <div className="max-w-[100rem] w-full py-4 flex gap-x-6">
+      <div className="max-w-[100rem] w-full py-4 flex lg:flex-row flex-col gap-x-6 px-4">
 
-        <div className="py-4 w-5/12 flex flex-col gap-y-4 justify-center">
+        <div className="py-4 w-full lg:w-5/12 flex flex-col gap-y-4 justify-center lg:order-1 order-2">
 
           <h1 className='six-title font-bold text-[#1f483e]'>
             We turn your dreams
@@ -33,7 +33,7 @@ const Hero = () => {
 
         </div>
 
-        <div className="py-4 w-7/12">
+        <div className="py-4 w-full lg:w-7/12 lg:order-2 order-1">
           <img src={mockuphero} alt="" />
         </div>
 
@@ -48,7 +48,7 @@ const Hero = () => {
             (There is - it's called a website)
           </p>
         </div>
-        <div className="py-4 w-full grid grid-cols-2 gap-4">
+        <div className="p-4 w-full grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="p-10 bg-white rounded-md shadow-md flex flex-col gap-y-2">
             <div className="flex gap-x-2 items-center text-xl font-light">
               <FaClockRotateLeft className='h-4 w-4'/>
@@ -57,7 +57,7 @@ const Hero = () => {
             <h2 className="four-title font-medium">
               Limited Reach, Stalled Growth: Business Without a Website
             </h2>
-            <div className='font-outfit md:w-2/3 lg:w-full flex md:flex-row flex-col gap-x-2'>
+            <div className='font-outfit w-full lg:w-full flex md:flex-row flex-col gap-x-2'>
               <ul class="mt-4 space-y-3 text-base text-slate-700 sm:text-xl">
                 <li class="flex items-start gap-3">
                   <div class="shrink-0 py-1.5">
@@ -95,7 +95,7 @@ const Hero = () => {
             <h2 className="four-title font-medium">
               24/7 Salesman, Global Reach: Business with a Website
             </h2>
-            <div className='font-outfit md:w-2/3 lg:w-full flex md:flex-row flex-col gap-x-2'>
+            <div className='font-outfit w-full lg:w-full flex md:flex-row flex-col gap-x-2'>
               <ul class="mt-4 space-y-3 text-base sm:text-xl">
                 <li class="flex items-start gap-3">
                   <div class="shrink-0 py-1.5">

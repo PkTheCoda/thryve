@@ -24,7 +24,7 @@ const ContactForm = () => {
             </div>
 
             <div className="flex items-stretch justify-center">
-                <div className="w-1/2">
+                <div className="w-full sm:w-3/4 md:w-1/2">
                     <div className="max-w-6xl p-5 md:p-12 rounded-md bg-secondary shadow-md" id="form">
                         <h2 className="mb-4 text-2xl font-bold text-white">Ready to Get Started?</h2>
                         <form id="contactForm" className='m-0'>

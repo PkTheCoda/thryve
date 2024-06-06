@@ -2,15 +2,15 @@ import React from 'react'
 
 const AboutPranav = () => {
   return (
-    <div className='font-outfit py-10 flex justify-center bg-[#faf7ee]'>
-        <div className="py-4 flex gap-8 max-w-7xl w-full">
-            <div className="w-5/12 flex flex-col gap-y-2 items-center">
+    <div className='font-outfit py-10 flex justify-center bg-[#faf7ee] px-4 lg:px-0'>
+        <div className="py-4 flex lg:flex-row flex-col gap-8 max-w-7xl w-full">
+            <div className="lg:w-5/12 flex flex-col gap-y-2 items-center">
                 <img 
                     src="https://www.pranavkonjeti.com/assets/pranavlatest-5dc23609.jpg" 
                     alt="A picture of me! (Pranav Konjeti)" 
-                    className='rounded-md shadow-md'
+                    className='rounded-md shadow-md w-full sm:w-1/2 lg:w-full'
                 />
-                <div className='flex gap-x-2'>
+                <div className='flex sm:flex-row flex-col gap-2 items-center'>
                     <a href='https://pranavkonjeti.com' target='_blank' class="w-max flex items-center text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
                         View my Portfolio
                     </a>
@@ -19,7 +19,7 @@ const AboutPranav = () => {
                     </a>
                 </div>
             </div>
-            <div className="w-7/12 flex flex-col justify-center gap-y-2 text-[#1D4B40]">
+            <div className="lg:w-7/12 flex flex-col justify-center gap-y-2 text-[#1D4B40]">
 
                 <div>
                     {/* <p className="paragraph-responsive tracking-wide font-light">
