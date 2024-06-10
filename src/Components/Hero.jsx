@@ -45,7 +45,7 @@ const Hero = () => {
             Imagine if there was a way you could put your brand in front of thousands and open your doors to a world of new customers.
           </h2>
           <p className='paragraph-responsive font-light'>
-            (There is - it's called a website)
+            (And we can do that for you 😉)
           </p>
         </div>
         <div className="p-4 w-full grid grid-cols-1 md:grid-cols-2 gap-4">

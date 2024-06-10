@@ -17,9 +17,9 @@ const ContactForm = () => {
                         className="font-heading mb-2 font-semibold tracking-tight text-main dark:text-white six-title">
                         So Anyways, <span className="block opacity-70">Let's Get in Touch</span>
                     </h2>
-                    <p className="mx-auto max-w-3xl underline text-xl text-gray-600 dark:text-slate-400">
+                    <a href='/contact' target='_blank' className="mx-auto max-w-3xl underline text-xl text-gray-600 dark:text-slate-400">
                         Book a Call instead
-                    </p>
+                    </a>
                 </div>
             </div>
 

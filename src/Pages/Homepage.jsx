@@ -11,14 +11,12 @@ import Footer from '../Components/Footer'
 const Homepage = () => {
   return (
     <>
-        <Navbar />
         <Hero />
         <MainFeatures />
         <AboutPranav />
         <PricingHome />
         {/* <OurProjects /> */}
         <ContactForm />
-        <Footer />
     </>
   )
 }

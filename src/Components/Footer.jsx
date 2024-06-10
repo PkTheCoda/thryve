@@ -17,9 +17,9 @@ const Footer = () => {
                 </div>
                 <div class="p-5">
                     <div class="text-sm uppercase text-main font-bold">Services</div>
-                    <a class="my-3 block" href="/#">Web Design</a><a
-                        class="my-3 block" href="/#">Website Maintanence</a><a
-                        class="my-3 block" href="/#">Other</a>
+                    <a class="my-3 block" href="/#">Web Design</a>
+                    <a class="my-3 block" href="/#">Website Maintanence</a>
+                    <a class="my-3 block" href="/#">Website Redesign</a>
                 </div>
                 <div class="p-5">
                     <div class="text-sm uppercase text-main font-bold">Contact us</div>

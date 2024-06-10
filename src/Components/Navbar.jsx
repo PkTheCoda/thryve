@@ -60,7 +60,7 @@ export default function Navbar() {
                 target='_blank'
                 className="text-lg font-normal transition300scale text-white bg-[#387e62] py-1 px-4 rounded-sm shadow-md font-outfit"
               >
-                Contact Us
+                Book a Call
               </a>
             </div>
           </nav>

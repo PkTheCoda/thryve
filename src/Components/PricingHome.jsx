@@ -18,9 +18,9 @@ const PricingHome = () => {
                         Our pricing model is <span className="font-semibold">super simple</span> and is what
                         you can expect 99% of the time (unless you're looking for something very custom - then we'll talk!)
                     </p>
-                    <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
+                    {/* <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
                         Get a Quote
-                    </a>
+                    </a> */}
                 </div>
             </div>
 
@@ -84,13 +84,14 @@ const PricingHome = () => {
                         </div>
                     </div>
                     <div className="w-full flex justify-end">
-                        <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-main rounded-md shadow-md text-main transition300scale focus:outline-none">
-                            Book a Call
+                        <a href='#contact' class="w-max flex items-center text-lg h-10 px-4 bg-main rounded-md shadow-md text-main transition300scale focus:outline-none">
+                            Contact Us
                         </a>
                     </div>
                 </div>
 
                 <div className='md:w-5/12 flex flex-col justify-center gap-4'>
+
                     <div className='bg-white flex flex-col h-max items-center gap-y-4 rounded-md w-full p-10 text-main shadow-md'>
                         <div className='flex w-full flex-col gap-y-2'>
                             <h2 className="four-title">
@@ -104,13 +105,13 @@ const PricingHome = () => {
                         <div className='w-full border-t grid grid-cols-1 gap-6 border-slate-400 text-main'>
                         </div>
                         <div className="w-full flex justify-end">
-                            <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-secondary rounded-md shadow-md text-white transition300scale focus:outline-none">
+                            <a href='/contact' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-secondary rounded-md shadow-md text-white transition300scale focus:outline-none">
                                 Book a Call
                             </a>
                         </div>
                     </div>
 
-                    <div className='bg-[#a98555] flex flex-col h-max items-center gap-y-4 rounded-md w-full p-10 text-white shadow-md'>
+                    <div className='bg-[#705531] flex flex-col h-max items-center gap-y-4 rounded-md w-full p-10 text-white shadow-md'>
                         <div className='flex w-full flex-col gap-y-2'>
                             <h2 className="four-title">
                                 Website Redesigns
@@ -126,12 +127,13 @@ const PricingHome = () => {
                         <div className='w-full border-t grid grid-cols-1 gap-6 border-slate-100 text-main'>
                         </div>
                         <div className="w-full flex justify-end">
-                            <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-secondary rounded-md shadow-md text-white transition300scale focus:outline-none">
+                            <a href='/contact' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-main rounded-md shadow-md text-main transition300scale focus:outline-none">
                                 Book a Call
                             </a>
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
