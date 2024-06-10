@@ -41,8 +41,8 @@ const MainFeatures = () => {
                             Let's create your site 
                             <span className="block opacity-70">How you want it.</span>
                         </h1>
-                        <p className='text-lg tracking-wide'>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quos explicabo illum amet.
+                        <p className='text-lg tracking-wide w-5/6'>
+                            Your site, your way. Feel free to give us other sites, colors, fonts, etc. for inspiration - or let us take control!
                         </p>
                         <div className='flex flex-col gap-y-2 tracking-wide text-[#1D4B40]'>
                             <div className='flex items-center gap-x-8'>
@@ -85,7 +85,7 @@ const MainFeatures = () => {
                             <span className="block opacity-70">As you need.</span>
                         </h1>
                         <p className='text-lg tracking-wide'>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quos explicabo illum amet.
+                            Need something on your site changed? Give us an email/call, and we'll get it done in less than 24 hours.
                         </p>
                         <div className='flex flex-col gap-y-2 tracking-wide text-[#1D4B40]'>
                             <div className='flex items-center gap-x-8'>
@@ -95,17 +95,17 @@ const MainFeatures = () => {
                                 </div>
                                 <div className="flex items-center gap-x-2">
                                     <PiCheckFatDuotone className='w-4 h-4'/>
-                                    <p className="text-lg">Design calls/checkins</p>
+                                    <p className="text-lg">Quick Response Time</p>
                                 </div>
                             </div>
                             <div className='flex items-center gap-x-8'>
                                 <div className="flex items-center gap-x-2">
                                     <PiCheckFatDuotone className='w-4 h-4'/>
-                                    <p className="text-lg">Lifetime Support</p>
+                                    <p className="text-lg">Page/Section Changes</p>
                                 </div>
                                 <div className="flex items-center gap-x-2">
                                     <PiCheckFatDuotone className='w-4 h-4'/>
-                                    <p className="text-lg">Access to code</p>
+                                    <p className="text-lg">Revision History Access</p>
                                 </div>
                             </div>
                         </div>
@@ -122,27 +122,27 @@ const MainFeatures = () => {
                             <span className="block opacity-70">On all screens.</span>
                         </h1>
                         <p className='text-lg tracking-wide'>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quos explicabo illum amet.
+                            Whether it's a phone, tablet, computer, or monitor, your site will load and work perfectly either way!
                         </p>
                         <div className='flex flex-col gap-y-2 tracking-wide text-[#1D4B40]'>
                             <div className='flex items-center gap-x-8'>
                                 <div className="flex items-center gap-x-2">
                                     <PiCheckFatDuotone className='w-4 h-4'/>
-                                    <p className="text-lg">Unlimited Revisions</p>
+                                    <p className="text-lg">Responsified Website</p>
                                 </div>
                                 <div className="flex items-center gap-x-2">
                                     <PiCheckFatDuotone className='w-4 h-4'/>
-                                    <p className="text-lg">Design calls/checkins</p>
+                                    <p className="text-lg">Thorough testing</p>
                                 </div>
                             </div>
                             <div className='flex items-center gap-x-8'>
                                 <div className="flex items-center gap-x-2">
                                     <PiCheckFatDuotone className='w-4 h-4'/>
-                                    <p className="text-lg">Lifetime Support</p>
+                                    <p className="text-lg">Access to Color Palette</p>
                                 </div>
                                 <div className="flex items-center gap-x-2">
                                     <PiCheckFatDuotone className='w-4 h-4'/>
-                                    <p className="text-lg">Access to code</p>
+                                    <p className="text-lg">Fonts, design mockup, etc.</p>
                                 </div>
                             </div>
                         </div>
@@ -165,27 +165,27 @@ const MainFeatures = () => {
                             <span className="block opacity-70">We mean fast.</span>
                         </h1>
                         <p className='text-lg tracking-wide'>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quos explicabo illum amet.
+                            Website speed and accessibility are vital to good rankings and UX. When we make our websites, we take that into account.
                         </p>
                         <div className='flex flex-col gap-y-2 tracking-wide text-[#1D4B40]'>
                             <div className='flex items-center gap-x-8'>
                                 <div className="flex items-center gap-x-2">
                                     <PiCheckFatDuotone className='w-4 h-4'/>
-                                    <p className="text-lg">Unlimited Revisions</p>
+                                    <p className="text-lg">Secured Website</p>
                                 </div>
                                 <div className="flex items-center gap-x-2">
                                     <PiCheckFatDuotone className='w-4 h-4'/>
-                                    <p className="text-lg">Design calls/checkins</p>
+                                    <p className="text-lg">SSL Certificate</p>
                                 </div>
                             </div>
                             <div className='flex items-center gap-x-8'>
                                 <div className="flex items-center gap-x-2">
                                     <PiCheckFatDuotone className='w-4 h-4'/>
-                                    <p className="text-lg">Lifetime Support</p>
+                                    <p className="text-lg">Flawless User Experience</p>
                                 </div>
                                 <div className="flex items-center gap-x-2">
                                     <PiCheckFatDuotone className='w-4 h-4'/>
-                                    <p className="text-lg">Access to code</p>
+                                    <p className="text-lg">Search Engine Optimized</p>
                                 </div>
                             </div>
                         </div>

@@ -27,7 +27,7 @@ const ContactForm = () => {
                 <div className="w-full sm:w-3/4 md:w-1/2">
                     <div className="max-w-6xl p-5 md:p-12 rounded-md bg-secondary shadow-md" id="form">
                         <h2 className="mb-4 text-2xl font-bold text-white">Ready to Get Started?</h2>
-                        <form id="contactForm" className='m-0'>
+                        <form action="post" data-netlify="true" id="contactForm" className='m-0'>
                             <div className="mb-6">
                                 <div className="mx-0 mb-1 sm:mb-4">
                                     <div className="mx-0 mb-1 sm:mb-4">
