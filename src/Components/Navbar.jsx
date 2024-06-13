@@ -6,9 +6,9 @@ import { useState } from 'react';
 import thryvelogo from '../assets/thryvelogo1.png'
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Portfolio', href: '/portfolio' },
+  // { name: 'Home', href: '/' },
+  // { name: 'About', href: '/about' },
+  // { name: 'Portfolio', href: '/portfolio' },
 
 ]
 

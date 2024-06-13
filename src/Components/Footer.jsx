@@ -11,9 +11,7 @@ const Footer = () => {
                 <div class="p-5">
                     <div class="text-sm uppercase text-main font-bold">Navigation</div>
                     <a class="my-3 block" href="/#">Home</a>
-                    <a class="my-3 block" href="/#">About</a>
-                    <a class="my-3 block" href="/#">Services </a>
-                    <a class="my-3 block" href="/#">Portfolio</a>
+                    <a class="my-3 block" href="/contact">Contact</a>
                 </div>
                 <div class="p-5">
                     <div class="text-sm uppercase text-main font-bold">Services</div>
