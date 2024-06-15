@@ -26,7 +26,7 @@ const Hero = () => {
                       <button class="w-1/3 text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 hover:text-white hover:bg-blue-400 hover:border-blue-400 focus:outline-none">Get a Quote</button>
                   </div>
                   <h5 className="text-sm text-[#aeaeae]">
-                    *Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor dicta repellendus possimus. Dolores porro repellendus minus dolorem 
+                    *Our prices are very straightforward and are 1-time payments unless you are looking for something more custom which you can find in the pricing section. 
                   </h5>
               </div>
           </div>
