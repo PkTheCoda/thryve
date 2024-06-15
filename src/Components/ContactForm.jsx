@@ -1,6 +1,13 @@
 import React from 'react'
+import { useForm, ValidationError } from '@formspree/react';
 
 const ContactForm = () => {
+
+    const [state, handleSubmit] = useForm("xnqeeokg");
+    if (state.succeeded) {
+        return <p>Thanks for joining!</p>;
+    }
+
   return (
     <section className="bg-[#eeeadd] font-outfit dark:bg-slate-800 relative z-20" id="contact">
         {/* <div className="absolute p-20 bg-[#c0bcb0] bottom-0 w-full -z-10"></div> */}
@@ -27,9 +34,12 @@ const ContactForm = () => {
                 <div className="w-full sm:w-3/4 md:w-1/2">
                     <div className="max-w-6xl p-5 md:p-12 rounded-md bg-secondary shadow-md" id="form">
                         <h2 className="mb-4 text-2xl font-bold text-white">Ready to Get Started?</h2>
-                        <form name='contact' method='POST' id="contactForm" className='m-0' data-netlify="true" netlify>
+                        <form name='contactForm' method='post' data-netlify="true" onSubmit="submit" id="contactForm" className='m-0'>
                             <div className="mb-6">
                                 <div className="mx-0 mb-1 sm:mb-4">
+
+                                    <input type="hidden" name='form-name-hidden' value="contactForm"/>
+
                                     <div className="mx-0 mb-1 sm:mb-4">
                                         <input type="text" id="name" placeholder="Your name" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name"/>
                                     </div>
@@ -38,7 +48,7 @@ const ContactForm = () => {
                                     </div>
                                 </div>
                                 <div className="mx-0 mb-1 sm:mb-4">
-                                    <label for="textarea" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+                                    <label for="textarea" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="message" cols="30" rows="5" placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
                                 </div>
                             </div>
                             <div className="text-center">
