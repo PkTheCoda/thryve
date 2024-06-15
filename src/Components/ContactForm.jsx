@@ -4,8 +4,9 @@ import { useForm, ValidationError } from '@formspree/react';
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("xnqeeokg");
   if (state.succeeded) {
-    return (<div className='w-full py-20 bg-[#eeeadd] five-title text-center font-outfit'>
+    return (<div className='w-full flex flex-col gap-y-4 py-20 bg-[#eeeadd] text-main five-title text-center font-outfit'>
                 Thank you for your message!
+                <p className='text-xl'>We'll get back to you within 24 hours!</p>
             </div>);
   }
 
@@ -32,7 +33,7 @@ const ContactForm = () => {
         <div className="flex items-stretch justify-center">
           <div className="w-full sm:w-3/4 md:w-1/2">
             <div className="max-w-6xl p-5 md:p-12 rounded-md bg-secondary shadow-md" id="form">
-              <h2 className="mb-4 text-2xl font-bold text-white">Ready to Get Started?</h2>
+              <h2 className="mb-4 text-2xl font-bold text-white">Let's boost your business. <span className="opacity-80">Today.</span></h2>
               <form onSubmit={handleSubmit} id="contactForm" className='m-0'>
                 <div className="mb-6">
                   <div className="mx-0 mb-1 sm:mb-4">
@@ -69,7 +70,25 @@ const ContactForm = () => {
                         errors={state.errors}
                       />
                     </div>
+
+                    <div className="mx-0 mb-1 sm:mb-4">
+                      <input 
+                        type="text" 
+                        id="company" 
+                        name="company" 
+                        placeholder="Your Company" 
+                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" 
+                        required 
+                      />
+                      <ValidationError 
+                        prefix="Company" 
+                        field="company"
+                        errors={state.errors}
+                      />
+                    </div>
                   </div>
+
+                  
 
                   <div className="mx-0 mb-1 sm:mb-4">
                     <textarea 

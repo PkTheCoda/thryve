@@ -22,8 +22,8 @@ const Hero = () => {
           <div class="dark:bg-gray-800 w-full flex justify-center items-center">
               <div class="w-full flex flex-col gap-y-4">
                   <div class="flex items-center gap-x-2">
-                      <input type="email" id="input-9" class="w-2/3 h-12 px-2 border-2 border-[#a2a2a0] text-gray-700 rounded focus:outline-none shadow-md" placeholder="Your Email Address"/>
-                      <button class="w-1/3 text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 hover:text-white hover:bg-blue-400 hover:border-blue-400 focus:outline-none">Get a Quote</button>
+                      {/* <input type="email" id="input-9" class="w-2/3 h-12 px-2 border-2 border-[#a2a2a0] text-gray-700 rounded focus:outline-none shadow-md" placeholder="Your Email Address"/> */}
+                      <a href='#contact' class="w-1/4 text-center flex items-center justify-center text-lg h-12 px-4 bg-[#387e62] hover:bg-[#2d654f] transition300 rounded shadow-md text-white focus:outline-none">Get a Quote</a>
                   </div>
                   <h5 className="text-sm text-[#aeaeae]">
                     *Our prices are very straightforward and are 1-time payments unless you are looking for something more custom which you can find in the pricing section. 
