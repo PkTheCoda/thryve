@@ -22,9 +22,9 @@ export default function Contact() {
                     And make your dreams come true.
                 </span>
             </h1>
-            <p className="w-5/6 sm:w-2/3 lg:w-1/2 text-xl text-center font-light leading-9">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ducimus dolor 
-                aperiam eveniet, modi a assumenda eligendi beatae laudantium, autem facere ex voluptatum, 
+            <p className="w-5/6 sm:w-2/3 lg:w-1/2 text-xl text-center font-light leading-9 mb-4">
+                Let's make your business dreams come true. If a meeting time below does not work for you, 
+                reach out to us and we'll setup a call at anytime that works for you.
             </p>
         </div>
         <Cal
