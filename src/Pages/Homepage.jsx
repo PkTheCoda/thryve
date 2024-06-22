@@ -7,6 +7,7 @@ import PricingHome from '../Components/PricingHome'
 import OurProjects from '../Components/OurProjects'
 import ContactForm from '../Components/ContactForm'
 import Footer from '../Components/Footer'
+import Testimonial from '../Components/Testimonial'
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
         <MainFeatures />
         <AboutPranav />
         <PricingHome />
+        <Testimonial />
         {/* <OurProjects /> */}
         <ContactForm />
     </>

@@ -28,7 +28,7 @@ const PricingHome = () => {
 
                 <div className='bg-secondary flex flex-col items-center gap-y-4 rounded-md md:w-7/12 p-10 text-white shadow-md'>
                     <h2 className="four-title w-full">
-                        <span className="font-bold">$400</span> Down Payment, <span className="font-bold">$30</span> per month,
+                        <span className="font-bold">$350</span> Down Payment, <span className="font-bold">$30</span> per month,
                         <span className="block opacity-70">Optional Monthly Maintanence</span>
                     </h2>
                     <div className='w-full border-y grid grid-cols-1 gap-6 border-slate-400 text-slate-200 py-8'>

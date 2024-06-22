@@ -72,4 +72,8 @@
   .text-secondary {
     @apply text-[#faf7ee]
   }
+
+  .testimonial-block {
+    @apply bg-secondary px-2 rounded-md text-[#faf7ee]
+  }
 }
