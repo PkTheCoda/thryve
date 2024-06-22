@@ -14,9 +14,9 @@ const AboutPranav = () => {
                     <a href='https://pranavkonjeti.com' target='_blank' class="w-max flex items-center text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
                         View my Portfolio
                     </a>
-                    <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
+                    {/* <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
                         Download my Resume
-                    </a>
+                    </a> */}
                 </div>
             </div>
             <div className="lg:w-7/12 flex flex-col justify-center gap-y-2 text-[#1D4B40]">
@@ -39,12 +39,14 @@ const AboutPranav = () => {
 
                 <div className='flex flex-col gap-y-2'>
                     <h2 className="four-title font-medium mt-2 opacity-80">
-                        Wait a Second. A highschooler? Do I even have enough experience?
+                        My Past Experience:
                     </h2>
-                    <p className='text-xl tracking-wide font-light leading-9'>
-                        I get this question a lot whenever I reach out to clients/businesses - obviously one would have
-                        concerns about paying a 16-year old for a website, no? I personally believe that my results speak 
-                        for themselves:
+                    <p className='text-xl tracking-wide font-light leading-8'>
+                        My very first website was <a href="https://talem.org" target='_blank' className='underline'>talem.org</a>, 
+                        a website that helps highschoolers find opportunities. Currently, the site has done over 1 Million views and raised more
+                        than $4000. After that, I started <a href="https://score1600.com" target='_blank' className="underline">my own SAT-Tutoring business</a>,
+                        and created <a href="https://desource.app" target='_blank' className='underline'>an app that helps web-developers and designers.</a>{' '} Now,
+                        I mainly freelance for amazing businesses and work on my own projects on the side! Some stats:
                     </p>
                 </div>
                 

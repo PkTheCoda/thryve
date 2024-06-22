@@ -15,7 +15,7 @@ const Testimonial = () => {
                             fill="currentColor"></path>
                     </svg>
                     <blockquote>
-                        <p class="five-title font-medium text-gray-900 dark:text-white leading-[3.8rem]">
+                        <p class="five-title font-medium text-gray-700 dark:text-white leading-[3.8rem]">
                             I had a smaller budget so did not expect much, but Thryve{' '}
                             <span className="testimonial-block">blew my expectations out of the water</span>. Within just a few days, they created an 
                             amazing website for my lawn-mowing business and setup everything from forms to analytics
@@ -24,9 +24,9 @@ const Testimonial = () => {
                     </blockquote>
                     <figcaption class="flex items-center justify-center mt-6 space-x-3">
                         <img class="w-6 h-6 rounded-full" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="profile picture"/>
-                        <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                        <div class="flex items-center divide-x-2 divide-gray-400 dark:divide-gray-700">
                             <div class="pr-3 text-lg font-medium text-gray-900 dark:text-white">Blake M.</div>
-                            <div class="pl-3 text-lg font-light text-gray-500 dark:text-gray-400">Founder of <a href="https://glmow.netlify.app" className="text-blue-600 underline">Greenleaf Mowing</a></div>
+                            <div class="pl-3 text-lg font-light text-gray-500 dark:text-gray-400">Founder of <a href="https://glmow.netlify.app" target='_blank' className="text-blue-600 underline">Greenleaf Mowing</a></div>
                         </div>
                     </figcaption>
                 </figure>
