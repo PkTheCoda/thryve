@@ -5,35 +5,27 @@ import { FaClockRotateLeft } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div className='bg-[#faf7ee] font-outfit h-max py-10 flex flex-col items-center justify-center'>
-      <div className="max-w-[100rem] w-full py-4 flex lg:flex-row flex-col gap-x-6 px-4">
+      <div className="max-w-[100rem] w-full py-4 flex flex-col gap-x-6 px-4">
 
-        <div className="py-4 w-full lg:w-5/12 flex flex-col gap-y-4 justify-center lg:order-1 order-2">
+        <div className="py-4 w-full flex flex-col items-center gap-y-4 justify-center">
 
-          <h1 className='six-title font-bold text-[#1f483e]'>
+          <h1 className='seven-title text-center font-bold text-[#1f483e]'>
             We turn your dreams
-            into realities.
+            <span className="opacity-70 block">into realities.</span>
           </h1>
 
-          <p className='paragraph-responsive text-[#878785] leading-loose'>
+          <p className='paragraph-responsive text-[#878785] leading-loose text-center max-w-4xl'>
             Thryve specializes in small business web design and development for clients worldwide. Our websites are 
             hand-coded without any page builders to ensure the best perfomance and maximum ranking!
           </p>
 
-          <div class="dark:bg-gray-800 w-full flex justify-center items-center">
-              <div class="w-full flex flex-col gap-y-4">
-                  <div class="flex items-center gap-x-2">
-                      {/* <input type="email" id="input-9" class="w-2/3 h-12 px-2 border-2 border-[#a2a2a0] text-gray-700 rounded focus:outline-none shadow-md" placeholder="Your Email Address"/> */}
-                      <a href='#contact' class="w-1/4 text-center flex items-center justify-center text-lg h-12 px-4 bg-[#387e62] hover:bg-[#2d654f] transition300 rounded shadow-md text-white focus:outline-none">Get a Quote</a>
-                  </div>
-                  <h5 className="text-sm text-[#aeaeae]">
-                    *Our prices are very straightforward and are 1-time payments unless you are looking for something more custom which you can find in the pricing section. 
-                  </h5>
-              </div>
+          <div class="w-full flex flex-col items-center gap-y-4">               
+              <a href='#contact' class="px-4 py-1 text-center flex items-center justify-center text-lg bg-[#387e62] hover:bg-[#2d654f] transition300 rounded shadow-md text-white focus:outline-none">Get a Quote</a>
           </div>
 
         </div>
 
-        <div className="py-4 w-full lg:w-7/12 lg:order-2 order-1">
+        <div className="py-4 w-full">
           <img src={mockuphero} alt="" />
         </div>
 

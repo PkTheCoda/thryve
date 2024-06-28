@@ -44,7 +44,7 @@ const AboutPranav = () => {
                     <p className='text-xl tracking-wide font-light leading-8'>
                         My very first website was <a href="https://talem.org" target='_blank' className='underline'>talem.org</a>, 
                         a website that helps highschoolers find opportunities. Currently, the site has done over 1 Million views and raised more
-                        than $4000. After that, I started <a href="https://score1600.com" target='_blank' className="underline">my own SAT-Tutoring business</a>,
+                        than $3000. After that, I started <a href="https://score1600.com" target='_blank' className="underline">my own SAT-Tutoring business</a>,
                         and created <a href="https://desource.app" target='_blank' className='underline'>an app that helps web-developers and designers.</a>{' '} Now,
                         I mainly freelance for amazing businesses and work on my own projects on the side! Some stats:
                     </p>
