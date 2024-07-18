@@ -37,7 +37,7 @@ const Hero = () => {
 
             <div className='mr-4 rounded-md shadow-md'>
               <a href="https://ecoeats.us" className='cursor-pointer' target='_blank'>
-                <img src={websample2} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+                <img src={websample2} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 EcoEats - Nonprofit Company
@@ -46,7 +46,7 @@ const Hero = () => {
 
             <div className='mr-4 rounded-md shadow-md'>
               <a href="https://glmow.netlify.app" className='cursor-pointer' target='_blank'>
-                <img src={websample3} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+                <img src={websample3} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 Green Leaf Mowing - Lawn Mowing Company
@@ -55,7 +55,7 @@ const Hero = () => {
 
             <div className='mr-4 rounded-md shadow-md'>
               <a href="https://desource.app" className='cursor-pointer' target='_blank'>
-                <img src={websample4} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+                <img src={websample4} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 Desource - Software Website
@@ -64,7 +64,7 @@ const Hero = () => {
 
             <div className='mr-4 rounded-md shadow-md'>
               <a href="https://amcacademy.vercel.app" className='cursor-pointer' target='_blank'>
-                <img src={websample5} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+                <img src={websample5} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 AMC Academy - Tutoring Company
@@ -73,7 +73,7 @@ const Hero = () => {
 
             <div className='mr-4 rounded-md shadow-md'>
               <a href="https://learntheweb.org" className='cursor-pointer' target='_blank'>
-                <img src={websample6} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+                <img src={websample6} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 Learntheweb - Nonprofit Company
@@ -82,7 +82,7 @@ const Hero = () => {
             
             <div className='mr-4 rounded-md shadow-md'>
               <a href="#" className='cursor-pointer'>
-                <img src={websample1} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+                <img src={websample1} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 Flourish - Lawn Mowing Company
