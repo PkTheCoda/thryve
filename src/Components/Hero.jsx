@@ -1,20 +1,27 @@
 import React from 'react'
 import mockuphero from '../assets/mockuphero.png'
 import { FaClockRotateLeft } from "react-icons/fa6";
+import Marquee from "react-fast-marquee";
+import websample1 from '../assets/websample1.png'
+import websample2 from '../assets/websample2.png'
+import websample3 from '../assets/websample3.png'
+import websample4 from '../assets/websample4.png'
+import websample5 from '../assets/websample5.png'
+import websample6 from '../assets/websample6.png'
 
 const Hero = () => {
   return (
     <div className='bg-[#faf7ee] font-outfit h-max py-10 flex flex-col items-center justify-center'>
-      <div className="max-w-[100rem] w-full py-4 flex flex-col gap-x-6 px-4">
+      <div className="max-w-[110rem] w-full py-4 flex flex-col gap-x-6">
 
         <div className="py-4 w-full flex flex-col items-center gap-y-4 justify-center">
 
-          <h1 className='seven-title text-center font-bold text-[#1f483e]'>
+          <h1 className='seven-title text-center font-semibold tracking-tight text-[#1f483e]'>
             We turn your dreams
             <span className="opacity-70 block">into realities.</span>
           </h1>
 
-          <p className='paragraph-responsive text-[#878785] leading-loose text-center max-w-4xl'>
+          <p className='paragraph-responsive text-xl text-main leading-loose text-center max-w-4xl'>
             Thryve specializes in small business web design and development for clients worldwide. Our websites are 
             hand-coded without any page builders to ensure the best perfomance and maximum ranking!
           </p>
@@ -25,8 +32,65 @@ const Hero = () => {
 
         </div>
 
-        <div className="py-4 w-full">
-          <img src={mockuphero} alt="" />
+        <div className="w-full py-10 pb-20">
+          <Marquee speed={175} style={{paddingBottom: "20px", paddingTop: "20px"}} pauseOnHover>
+
+            <div className='mr-4 rounded-md shadow-md'>
+              <a href="https://ecoeats.us" className='cursor-pointer' target='_blank'>
+                <img src={websample2} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                EcoEats - Nonprofit Company
+              </div>
+            </div>
+
+            <div className='mr-4 rounded-md shadow-md'>
+              <a href="https://glmow.netlify.app" className='cursor-pointer' target='_blank'>
+                <img src={websample3} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                Green Leaf Mowing - Lawn Mowing Company
+              </div>
+            </div>
+
+            <div className='mr-4 rounded-md shadow-md'>
+              <a href="https://desource.app" className='cursor-pointer' target='_blank'>
+                <img src={websample4} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                Desource - Software Website
+              </div>
+            </div>
+
+            <div className='mr-4 rounded-md shadow-md'>
+              <a href="https://amcacademy.vercel.app" className='cursor-pointer' target='_blank'>
+                <img src={websample5} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                AMC Academy - Tutoring Company
+              </div>
+            </div>
+
+            <div className='mr-4 rounded-md shadow-md'>
+              <a href="https://learntheweb.org" className='cursor-pointer' target='_blank'>
+                <img src={websample6} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                Learntheweb - Nonprofit Company
+              </div>
+            </div>
+            
+            <div className='mr-4 rounded-md shadow-md'>
+              <a href="#" className='cursor-pointer'>
+                <img src={websample1} alt="Picture of website sample #1 Thryve has designed" className='h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                Flourish - Lawn Mowing Company
+              </div>
+            </div>
+
+            
+          </Marquee>
         </div>
 
       </div>
