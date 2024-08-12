@@ -24,6 +24,7 @@ const Footer = () => {
                     <a class="my-3 block" href="/#"> (804) 655 1618</a>
                     <a class="my-3 block" href="/#">support@thryve.design</a>
                 </div>
+                di
             </div>
         </div>
 
