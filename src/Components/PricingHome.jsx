@@ -11,7 +11,7 @@ const PricingHome = () => {
                     Finally, a web-dev agency with crystal clear, 
                     <span className="opacity-70">{' '}straight-forward pricing.</span>
                 </h1>
-                <div className='font-light text-xl text-slate-700 leading-8'>
+                <div className='font-light text-lg lg:text-xl text-slate-700 leading-8'>
                     <p className='mb-3'>
                         Most web development agencies don't tell you their prices. Why? So they can charge
                         you some outlandish price under the basis of "custom-pricing". We don't do that here.

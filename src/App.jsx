@@ -3,6 +3,7 @@ import Homepage from './Pages/Homepage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
+import Showcase from './Pages/Showcase';
 import Footer from './Components/Footer';
 
 
@@ -22,6 +23,12 @@ function App() {
             path="/contact"
             element={<Contact />}
           />
+
+          <Route 
+            path="/showcase"
+            element={<Showcase />}
+          />
+          
         </Routes>
       </BrowserRouter>
       <Footer />

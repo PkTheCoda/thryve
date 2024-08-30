@@ -18,7 +18,7 @@ const MainFeatures = () => {
             </div>
             <div className='py-2 max-w-7xl w-full flex flex-col gap-y-10'>
                 <div className='flex flex-col gap-y-4 items-center'>
-                    <div className='flex flex-col gap-y-2 items-center'>
+                    <div className='flex flex-col gap-y-2 items-center text-center'>
                         <h1 className="six-title text-white">
                             So What Exactly do we do?
                         </h1>
