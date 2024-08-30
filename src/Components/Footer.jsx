@@ -22,7 +22,7 @@ const Footer = () => {
                 <div class="p-5">
                     <div class="text-sm uppercase text-main font-bold">Contact us</div>
                     <a class="my-3 block" href="/#"> (804) 655 1618</a>
-                    <a class="my-3 block" href="/#">support@thryve.design</a>
+                    <a class="my-3 block" href="/#">pranavkonjeti@gmail.com</a>
                 </div>
             </div>
         </div>
