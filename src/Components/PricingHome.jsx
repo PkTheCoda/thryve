@@ -3,7 +3,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 const PricingHome = () => {
   return (
-    <div className='py-10 bg-main flex justify-center font-outfit'>
+    <div className='py-10 bg-main flex flex-col items-center justify-center font-outfit'>
         <div className="max-w-7xl py-4 w-full text-main flex flex-col gap-y-14 px-4">
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2'>
@@ -11,7 +11,7 @@ const PricingHome = () => {
                     Finally, a web-dev agency with crystal clear, 
                     <span className="opacity-70">{' '}straight-forward pricing.</span>
                 </h1>
-                <div className='font-light text-lg lg:text-xl text-slate-700 leading-8'>
+                <div className='font-light text-xl text-slate-700 leading-8'>
                     <p className='mb-3'>
                         Most web development agencies don't tell you their prices. Why? So they can charge
                         you some outlandish price under the basis of "custom-pricing". We don't do that here.
@@ -28,7 +28,7 @@ const PricingHome = () => {
 
                 <div className='bg-secondary flex flex-col items-center gap-y-4 rounded-md md:w-7/12 p-10 text-white shadow-md'>
                     <h2 className="four-title w-full">
-                        <span className="font-bold">$350</span> Down Payment, <span className="font-bold">$30</span> per month,
+                        <span className="font-bold">$450</span> Down Payment, <span className="font-bold">$30</span> per month,
                         <span className="block opacity-70">Optional Monthly Maintanence</span>
                     </h2>
                     <div className='w-full border-y grid grid-cols-1 gap-6 border-slate-400 text-slate-200 py-8'>
@@ -118,7 +118,7 @@ const PricingHome = () => {
                             </h2>
                             <p className='text-lg'>
                                 Already have a website but want it redesigned? We'll do it for a 
-                                flat fee of <span className="font-semibold">$300</span> for a standard 5-page site.
+                                flat fee of <span className="font-semibold">$400</span> for a standard 5-page site.
                                 <br />
                                 <br />
                                 This includes websites built with page-builders such as <span className="font-semibold">Wordpress, Wix, Squarespace, etc.</span>
@@ -136,6 +136,9 @@ const PricingHome = () => {
 
             </div>
 
+        </div>
+        <div className='text-base text-center'>
+            Are you a nonprofit or student run organization? <a href="mailto:pranavkonjeti@gmail.com" className='text-blue-700 underline'>Contact Us{' '}</a> and we'll offer you a discount!
         </div>
     </div>
 

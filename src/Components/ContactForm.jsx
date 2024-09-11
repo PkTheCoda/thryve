@@ -5,9 +5,9 @@ const ContactForm = () => {
   const [state, handleSubmit] = useForm("xnqeeokg");
   if (state.succeeded) {
     return (<div className='w-full flex flex-col gap-y-4 py-20 bg-[#eeeadd] text-main five-title text-center font-outfit'>
-                Thank you for your message!
-                <p className='text-xl'>We'll get back to you within 24 hours!</p>
-            </div>);
+        Thank you for your message!
+        <p className='text-xl'>We'll get back to you within 24 hours!</p>
+    </div>);
   }
 
   return (

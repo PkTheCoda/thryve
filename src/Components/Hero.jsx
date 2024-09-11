@@ -16,7 +16,7 @@ const Hero = () => {
 
         <div className="py-4 w-full flex flex-col items-center gap-y-4 justify-center">
 
-          <h1 className='eight-title text-center font-semibold tracking-tight text-[#1f483e]'>
+          <h1 className='seven-title text-center font-semibold tracking-tight text-[#1f483e]'>
             We turn your dreams
             <span className="opacity-70 block">into realities.</span>
           </h1>

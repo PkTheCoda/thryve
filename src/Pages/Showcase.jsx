@@ -1,24 +1,21 @@
-import React from 'react'
+import React from "react";
+import ecoeatsPic from '../assets/websample2.png'
 
-const Showcase = () => {
-  return (
-    <div className='py-40 bg-main flex justify-center items-center font-outfit'>
-        <div className='max-w-[80rem] py-2 w-full flex flex-col gap-y-20'>
-
-            <div className="space-y-3 text-center text-main">
-                <h1 className='seven-title font-medium tracking-tight'>
-                    View some of our stunning work.
-                </h1>
-                <p className='text-xl lg:text-2xl'>
-                    We've crafted some <span className="font-bold underline">incredible websites</span> for our clients - take a look!
-                </p>
+export default function Showcase() {
+    return (
+        <>
+            <div className="py-20 bg-[#faf7ee] font-outfit">
+                <div className="max-w-[80rem] mx-auto py-20 flex flex-col items-center gap-10">
+                    <h1 className="seven-title font-medium tracking-tight text-center">
+                        View some of our <span className="text-main block">Incredible Work.</span>
+                    </h1>
+                    <div className="py-10 border border-black w-full grid grid-cols-3 gap-10">
+                        <div className="py-4 bg-red-100">
+                            <img src={ecoeatsPic} alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            
-
-        </div>
-    </div>
-  )
+        </>
+    )
 }
-
-export default Showcase
