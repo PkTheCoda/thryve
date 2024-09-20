@@ -8,6 +8,8 @@ import websample3 from '../assets/websample3.png'
 import websample4 from '../assets/websample4.png'
 import websample5 from '../assets/websample5.png'
 import websample6 from '../assets/websample6.png'
+import websample7 from '../assets/websample7.png'
+import websample8 from '../assets/websample8.png'
 
 const Hero = () => {
   return (
@@ -50,6 +52,24 @@ const Hero = () => {
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 Green Leaf Mowing - Lawn Mowing Company
+              </div>
+            </div>
+
+            <div className='mr-4 rounded-md shadow-md'>
+              <a href="https://vihaana.org" className='cursor-pointer' target='_blank'>
+                <img src={websample7} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                Vihaana - Nonprofit Website
+              </div>
+            </div>
+
+            <div className='mr-4 rounded-md shadow-md'>
+              <a href="https://score1600.com" className='cursor-pointer' target='_blank'>
+                <img src={websample7} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                Score1600 - SAT Tutoring Website
               </div>
             </div>
 
