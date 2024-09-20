@@ -66,7 +66,7 @@ const Hero = () => {
 
             <div className='mr-4 rounded-md shadow-md'>
               <a href="https://score1600.com" className='cursor-pointer' target='_blank'>
-                <img src={websample7} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
+                <img src={websample8} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 Score1600 - SAT Tutoring Website
