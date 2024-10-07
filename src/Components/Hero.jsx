@@ -121,6 +121,9 @@ const Hero = () => {
 
             
           </Marquee>
+          <div className="text-center opacity-80">
+            Click on a website to view it live!
+          </div>
         </div>
 
       </div>
