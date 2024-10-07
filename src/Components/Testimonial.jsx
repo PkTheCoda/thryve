@@ -16,10 +16,10 @@ const Testimonial = () => {
                     </svg>
                     <blockquote>
                         <p class="five-title font-medium text-gray-700 dark:text-white leading-loose lg:leading-[3.8rem]">
-                            I had a smaller budget so did not expect much, but Thryve{' '}
-                            <span className="testimonial-block">blew my expectations out of the water</span>. Within just a few days, they created an 
-                            amazing website for my lawn-mowing business and setup everything from forms to analytics
-                            and I already see higher traffic to my site. <span className="testimonial-block">Amazing agency to work with!</span>
+                            I had a smaller budget, but Thryve{' '}
+                            <span className="testimonial-block">exceeded my expectations.</span>. Within just a few days, Pranav and his team created an 
+                            amazing homepage for my lawn-mowing business and setup everything from forms to analytics
+                            and I already see higher traffic to my site. <span className="testimonial-block">An incredible agency to partner with.</span>
                         </p>
                     </blockquote>
                     <figcaption class="flex flex-col lg:flex-row items-center justify-center mt-6 space-x-3">

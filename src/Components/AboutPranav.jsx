@@ -26,15 +26,19 @@ const AboutPranav = () => {
                         A bit about the Founder
                     </p> */}
                     <h2 className="six-title font-medium">
-                        Let's put a face to this,
-                        <span className="block opacity-70">Shall we?</span>
+                        Meet your
+                        <span className=" opacity-70">{' '}Developer</span>
                     </h2>
                 </div>
 
                 <p className='text-xl tracking-wide font-light leading-9'>
-                    Hey! I'm Pranav Konjeti - a Rising Senior in Highschool based out of Richmond Virginia. When I was in my Sophomore 
+                    {/* Hey! I'm Pranav - a Senior in Highschool based out of Richmond Virginia. When I was in my Sophomore 
                     year of Highschool, I picked up web-design and web-development and absolutely fell in love with it! That passion has 
-                    led me to create my own web-design agency: <span className="font-bold">Thryve.</span>
+                    led me to create my own web-design agency: <span className="font-bold">Thryve.</span> */}
+
+                    Hey, I’m Pranav! I’m a senior in high school from Richmond, Virginia. I started building websites in sophomore year 
+                    and quickly fell in love with web development. To me, it’s more than just coding – it’s a mix of design, prototyping, and 
+                    launching. Over the past year, I’ve freelanced for 25+ clients and made over $15k in revenue!
                 </p>
 
                 <div className='flex flex-col gap-y-2'>
@@ -42,11 +46,12 @@ const AboutPranav = () => {
                         My Past Experience:
                     </h2>
                     <p className='text-xl tracking-wide font-light leading-8'>
-                        My very first website was <a href="https://talem.org" target='_blank' className='underline'>talem.org</a>, 
-                        a website that helps highschoolers find opportunities. Currently, the site has done over 1 Million views and raised more
-                        than $3000. After that, I started <a href="https://score1600.com" target='_blank' className="underline">my own SAT-Tutoring business</a>,
-                        and created <a href="https://desource.app" target='_blank' className='underline'>an app that helps web-developers and designers.</a>{' '} Now,
-                        I mainly freelance for amazing businesses and work on my own projects on the side! Some stats:
+                        My first website, <a href="https://talem.org" target='_blank' className='underline'>talem.org</a>, 
+                        which helps high schoolers find opportunities, has reached over 1 million views and raised over $3,000+. 
+                        After that, I launched a <a href="https://learntheweb.org" target='_blank' className='underline'>computer science learning platform</a> {' '}
+                        and a site for <a href="https://desource.app" target='_blank' className='underline'>web developers to find design resources.</a> {' '}
+                        Today, I’m focusing on building my <a href="https://www.youtube.com/watch?v=yoCWJ0LHDfU&t=32s" target='_blank' className='underline'>edtech startup</a> {' '}
+                        while also freelancing for clients around the world.
                     </p>
                 </div>
                 

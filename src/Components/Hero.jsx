@@ -8,8 +8,9 @@ import websample3 from '../assets/websample3.png'
 import websample4 from '../assets/websample4.png'
 import websample5 from '../assets/websample5.png'
 import websample6 from '../assets/websample6.png'
-import websample7 from '../assets/websample7.png'
 import websample8 from '../assets/websample8.png'
+import websample9 from '../assets/websample9.png'
+import websample10 from '../assets/websample10.png'
 
 const Hero = () => {
   return (
@@ -19,8 +20,8 @@ const Hero = () => {
         <div className="py-4 w-full flex flex-col items-center gap-y-4 justify-center">
 
           <h1 className='seven-title text-center font-semibold tracking-tight text-[#1f483e]'>
-            We turn your dreams
-            <span className="opacity-70 block">into realities.</span>
+            We build stunning websites
+            <span className="opacity-70 block">At low, affordable prices.</span>
           </h1>
 
           <p className='paragraph-responsive text-xl text-main leading-loose text-center max-w-4xl'>
@@ -56,11 +57,20 @@ const Hero = () => {
             </div>
 
             <div className='mr-4 rounded-md shadow-md'>
-              <a href="https://vihaana.org" className='cursor-pointer' target='_blank'>
-                <img src={websample7} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
+              <a href="#" className='cursor-pointer' target='_blank'>
+                <img src={websample10} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
-                Vihaana - Nonprofit Website
+                EasyAP - AI Startup
+              </div>
+            </div>
+
+            <div className='mr-4 rounded-md shadow-md'>
+              <a href="https://cleanthegreen.org" className='cursor-pointer' target='_blank'>
+                <img src={websample9} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                Clean Green - Lawn Mowing Company
               </div>
             </div>
 
@@ -118,10 +128,10 @@ const Hero = () => {
       <div className="w-full max-w-6xl relative z-50 flex flex-col gap-y-2 tracking-tighter items-center justify-center">
         <div className='text-center flex flex-col max-w-4xl gap-y-2 text-[#1f483e]'>
           <h2 className="five-title font-medium">
-            Imagine if there was a way you could put your brand in front of thousands and open your doors to a world of new customers.
+            Imagine reaching thousands of new customers and expanding your brand's visibility worldwide.
           </h2>
           <p className='paragraph-responsive font-light'>
-            (And we can do that for you 😉)
+            (Well, that's exactly what we do here!)
           </p>
         </div>
         <div className="p-4 w-full grid grid-cols-1 md:grid-cols-2 gap-4">

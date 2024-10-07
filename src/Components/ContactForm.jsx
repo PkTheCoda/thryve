@@ -22,7 +22,7 @@ const ContactForm = () => {
               Contact Us
             </p>
             <h2 className="font-heading mb-2 font-semibold tracking-tight text-main dark:text-white six-title">
-              So Anyways, <span className="block opacity-70">Let's Get in Touch</span>
+              Ready to Create? <span className="block opacity-70">Let's Get in Touch!</span>
             </h2>
             <a href='/contact' target='_blank' className="mx-auto max-w-3xl underline text-xl text-gray-600 dark:text-slate-400">
               Book a Call instead
@@ -33,7 +33,7 @@ const ContactForm = () => {
         <div className="flex items-stretch justify-center">
           <div className="w-full sm:w-3/4 md:w-1/2">
             <div className="max-w-6xl p-5 md:p-12 rounded-md bg-secondary shadow-md" id="form">
-              <h2 className="mb-4 text-2xl font-bold text-white">Let's boost your business. <span className="opacity-80">Today.</span></h2>
+              <h2 className="mb-4 text-2xl font-bold text-white">Let's boost your online presence. <span className="opacity-80">Today.</span></h2>
               <form onSubmit={handleSubmit} id="contactForm" className='m-0'>
                 <div className="mb-6">
                   <div className="mx-0 mb-1 sm:mb-4">
