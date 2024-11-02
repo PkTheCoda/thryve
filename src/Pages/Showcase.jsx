@@ -1,18 +1,17 @@
 import React from "react";
-import ecoeatsPic from '../assets/websample2.png'
+import easyap_fullpage from '../fullpages/easyap_fullpage.png'
 
 export default function Showcase() {
     return (
         <>
-            <div className="py-20 bg-[#faf7ee] font-outfit">
+            <div className="pb-20 bg-[#faf7ee] font-outfit">
                 <div className="max-w-[80rem] mx-auto py-20 flex flex-col items-center gap-10">
-                    <h1 className="seven-title font-medium tracking-tight text-center">
-                        View some of our <span className="text-main block">Incredible Work.</span>
+                    <h1 className='seven-title text-center font-semibold tracking-tight text-[#1f483e]'>
+                        Take a look at our
+                        <span className="opacity-70 block">Stunning Websites</span>
                     </h1>
-                    <div className="py-10 border border-black w-full grid grid-cols-3 gap-10">
-                        <div className="py-4 bg-red-100">
-                            <img src={ecoeatsPic} alt="" />
-                        </div>
+                    <div className="w-full bg-red-100 p-10 grid grid-cols-2 gap-10">
+                        <img src={easyap_fullpage} alt="" />
                     </div>
                 </div>
             </div>

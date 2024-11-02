@@ -5,6 +5,7 @@ import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Showcase from './Pages/Showcase';
+import ShowcasePages from './Pages/ShowcasePages';
 
 
 function App() {
@@ -28,6 +29,13 @@ function App() {
             path="/showcase"
             element={<Showcase />}
           />
+
+          <Route 
+            path="/showcase/:showcaselink"
+            element={<ShowcasePages />}
+          />
+
+
         </Routes>
       </BrowserRouter>
       <Footer />
