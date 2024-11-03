@@ -1,6 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import easyap_fullpage from "../fullpages/easyap_fullpage.png";
+import cleangreen_fullpage from '../fullpages/cleangreen_fullpage.png'
+import score1600_fullpage from '../fullpages/score1600_fullpage.png'
 
 const ShowcasePages = ({ link, paragraph, stats, picture }) => {
   const { showcaselink } = useParams();
@@ -13,6 +15,22 @@ const ShowcasePages = ({ link, paragraph, stats, picture }) => {
         "EasyAP is a tech startup focusing on making AP Exam prep easier. The website has a massive database of 500+ MCQ and FRQ questions in more than 10+ AP subjects that users can answer. The website also uses a custom-trained AI model to provide feedback, hints, guidance, and more.",
         title: "EasyAP",
         subtitle: "AP-Exam Prep Startup"
+    },
+    cleangreen: {
+        link: "https://cleanthegreen.org",
+        fullpage: cleangreen_fullpage,
+        paragraph:
+        "EasyAP is a tech startup focusing on making AP Exam prep easier. The website has a massive database of 500+ MCQ and FRQ questions in more than 10+ AP subjects that users can answer. The website also uses a custom-trained AI model to provide feedback, hints, guidance, and more.",
+        title: "CleanGreen",
+        subtitle: "Lawn-Mowing Company"
+    },
+    score1600: {
+        link: "https://score1600.com",
+        fullpage: score1600_fullpage,
+        paragraph:
+        "EasyAP is a tech startup focusing on making AP Exam prep easier. The website has a massive database of 500+ MCQ and FRQ questions in more than 10+ AP subjects that users can answer. The website also uses a custom-trained AI model to provide feedback, hints, guidance, and more.",
+        title: "Score1600",
+        subtitle: "SAT Startup"
     },
   };
 
