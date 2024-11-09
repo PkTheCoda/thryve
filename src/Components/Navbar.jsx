@@ -56,7 +56,7 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-4">
               <a 
-                href="/contact" 
+                href="/showcase" 
                 target='_blank'
                 className="text-lg font-normal text-main py-1 px-4 font-outfit transition300scale"
               >
