@@ -115,10 +115,10 @@ export default function Showcase() {
 
           </div>
 
-          <div className="w-full text-center two-title max-w-4xl leading-10">
+          <div className="w-full text-center two-title max-w-4xl leading-10 px-4">
             <p>
                 Many websites are not listed here due to protecting the privacy of our clients! If you're interested in 
-                seeing our examples of our work, please <a href="mailto:pranavkonjeti@gmail.com" className="text-blue-600 underline">reach out to us.</a>
+                seeing more examples of our work, please <a href="mailto:pranavkonjeti@gmail.com" className="text-blue-600 underline">reach out to us.</a>
             </p>
           </div>
 

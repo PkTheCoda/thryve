@@ -109,6 +109,18 @@ export default function Navbar() {
                   </div>
                   <div className="py-6">
                     <a
+                      href="/"
+                      className="-mx-3 block rounded-lg px-3 py-2.5 text-base text-black leading-7 hover:bg-slate-50 transition transform duration-300"
+                    >
+                      Home
+                    </a>
+                    <a
+                      href="/showcase"
+                      className="-mx-3 block rounded-lg px-3 py-2.5 text-base text-black leading-7 hover:bg-slate-50 transition transform duration-300"
+                    >
+                      Showcase
+                    </a>
+                    <a
                       href="/contact"
                       className="-mx-3 block rounded-lg px-3 py-2.5 text-base text-black leading-7 hover:bg-slate-50 transition transform duration-300"
                     >
