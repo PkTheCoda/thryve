@@ -1,10 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+
 import easyap_fullpage from "../fullpages/easyap_fullpage.png";
 import cleangreen_fullpage from '../fullpages/cleangreen_fullpage.png'
 import score1600_fullpage from '../fullpages/score1600_fullpage.png'
+import ecoeats_fullpage from '../fullpages/ecoeats_fullpage.png'
+import greenleaf_fullpage from '../fullpages/greenleaf_fullpage.png'
 
-const ShowcasePages = ({ link, paragraph, stats, picture }) => {
+const ShowcasePages = () => {
   const { showcaselink } = useParams();
 
   const showcaseSites = {
@@ -22,7 +25,7 @@ const ShowcasePages = ({ link, paragraph, stats, picture }) => {
         paragraph:
         "EasyAP is a tech startup focusing on making AP Exam prep easier. The website has a massive database of 500+ MCQ and FRQ questions in more than 10+ AP subjects that users can answer. The website also uses a custom-trained AI model to provide feedback, hints, guidance, and more.",
         title: "CleanGreen",
-        subtitle: "Lawn-Mowing Company"
+        subtitle: "Lawn Mowing Company"
     },
     score1600: {
         link: "https://score1600.com",
@@ -32,6 +35,22 @@ const ShowcasePages = ({ link, paragraph, stats, picture }) => {
         title: "Score1600",
         subtitle: "SAT Startup"
     },
+    greenleaf: {
+        link: "https://glmow.netlify.app",
+        fullpage: greenleaf_fullpage,
+        paragraph:
+        "EasyAP is a tech startup focusing on making AP Exam prep easier. The website has a massive database of 500+ MCQ and FRQ questions in more than 10+ AP subjects that users can answer. The website also uses a custom-trained AI model to provide feedback, hints, guidance, and more.",
+        title: "GreenLeaf Mowing",
+        subtitle: "Lawn Mowing Company"
+    },
+    ecoeats: {
+        link: "https://ecoeats.us",
+        fullpage: ecoeats_fullpage,
+        paragraph:
+        "EasyAP is a tech startup focusing on making AP Exam prep easier. The website has a massive database of 500+ MCQ and FRQ questions in more than 10+ AP subjects that users can answer. The website also uses a custom-trained AI model to provide feedback, hints, guidance, and more.",
+        title: "EcoEats",
+        subtitle: "Nonprofit Organization"
+    },
   };
 
   return (
@@ -40,7 +59,7 @@ const ShowcasePages = ({ link, paragraph, stats, picture }) => {
             Object.hasOwn(showcaseSites, showcaselink) ?
             <div className="max-w-[95rem] mx-auto flex flex-col gap-y-20 relative">
                 <div className="flex flex-col gap-y-4 items-center text-secondary sticky text-center">
-                    <div className="-space-y-2">
+                    <div className="">
                         <h4 className="two-title tracking-widest uppercase">
                             {showcaseSites[showcaselink].subtitle}
                         </h4>
@@ -51,7 +70,7 @@ const ShowcasePages = ({ link, paragraph, stats, picture }) => {
                     <p className="one-title max-w-3xl">
                         {showcaseSites[showcaselink].paragraph}
                     </p>
-                    <a href={showcaseSites[showcaselink].link} class="w-max flex items-center text-lg h-10 px-4 bg-main rounded-md shadow-md text-main transition300scale focus:outline-none">
+                    <a href={showcaseSites[showcaselink].link} target="_blank" class="w-max flex items-center text-lg h-10 px-4 bg-main rounded-md shadow-md text-main transition300scale focus:outline-none">
                         Visit Site
                     </a>
                 </div> 
