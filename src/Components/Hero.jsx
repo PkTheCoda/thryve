@@ -29,8 +29,12 @@ const Hero = () => {
             hand-coded without any page builders to ensure the best perfomance and maximum ranking!
           </p>
 
-          <div class="w-full flex flex-col items-center gap-y-4">               
-              <a href='#contact' class="px-4 py-1 text-center flex items-center justify-center text-lg bg-[#387e62] hover:bg-[#2d654f] transition300 rounded shadow-md text-white focus:outline-none">Get a Quote</a>
+          <div class="w-full flex justify-center gap-4">               
+              <a 
+                href='/showcase' 
+                class="px-4 py-1 text-center transition300scale flex items-center justify-center text-lg bg-[#387e62] transition300 rounded shadow-md text-white focus:outline-none">
+                  View our work
+              </a>
           </div>
 
         </div>

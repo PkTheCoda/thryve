@@ -54,7 +54,14 @@ export default function Navbar() {
                 </a>
               ))}
             </div>
-            <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-4">
+              <a 
+                href="/contact" 
+                target='_blank'
+                className="text-lg font-normal text-main py-1 px-4 font-outfit transition300scale"
+              >
+                Our Work
+              </a>
               <a 
                 href="/contact" 
                 target='_blank'
@@ -64,6 +71,7 @@ export default function Navbar() {
               </a>
             </div>
           </nav>
+
           <Dialog as="div" className="lg:hidden font-outfit" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
             <div className="fixed inset-0 z-50" />
             <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
@@ -111,6 +119,7 @@ export default function Navbar() {
               </div>
             </Dialog.Panel>
           </Dialog>
+
         </header>
       </div>
     </>
