@@ -23,7 +23,7 @@ const ShowcasePages = () => {
         link: "https://cleanthegreen.org",
         fullpage: cleangreen_fullpage,
         paragraph:
-        "EasyAP is a tech startup focusing on making AP Exam prep easier. The website has a massive database of 500+ MCQ and FRQ questions in more than 10+ AP subjects that users can answer. The website also uses a custom-trained AI model to provide feedback, hints, guidance, and more.",
+        "CleanGreen is a lawn mowing company based out of Richmond, Virginia that focuses on keeping your lawn clean and beautiful alongside professional landscaping as well! The website uses a clean white-green color scheme.",
         title: "CleanGreen",
         subtitle: "Lawn Mowing Company"
     },
@@ -31,7 +31,7 @@ const ShowcasePages = () => {
         link: "https://score1600.com",
         fullpage: score1600_fullpage,
         paragraph:
-        "EasyAP is a tech startup focusing on making AP Exam prep easier. The website has a massive database of 500+ MCQ and FRQ questions in more than 10+ AP subjects that users can answer. The website also uses a custom-trained AI model to provide feedback, hints, guidance, and more.",
+        "Score1600 is an SAT tutoring startup started by Pranav and his friends in order to bring cheap, effective, local SAT tutoring to the greater Richmond Area. The website utilizes a green-yellow color scheme.",
         title: "Score1600",
         subtitle: "SAT Startup"
     },
@@ -39,7 +39,7 @@ const ShowcasePages = () => {
         link: "https://glmow.netlify.app",
         fullpage: greenleaf_fullpage,
         paragraph:
-        "EasyAP is a tech startup focusing on making AP Exam prep easier. The website has a massive database of 500+ MCQ and FRQ questions in more than 10+ AP subjects that users can answer. The website also uses a custom-trained AI model to provide feedback, hints, guidance, and more.",
+        "GreenLeaf Mowing is a lawn mowing company based out of Richmond, Virginia that focuses on professional mowing and landscaping along with yardwork, trimming, and much more. The website utilizes a green-brown color scheme.",
         title: "GreenLeaf Mowing",
         subtitle: "Lawn Mowing Company"
     },
@@ -47,7 +47,7 @@ const ShowcasePages = () => {
         link: "https://ecoeats.us",
         fullpage: ecoeats_fullpage,
         paragraph:
-        "EasyAP is a tech startup focusing on making AP Exam prep easier. The website has a massive database of 500+ MCQ and FRQ questions in more than 10+ AP subjects that users can answer. The website also uses a custom-trained AI model to provide feedback, hints, guidance, and more.",
+        "EcoEats is a nonprofit aimed at connecting restaurants with surplus food with homeless shelters and food banks. The website utilizes a strong white-green color scheme and many Figma-designed assets to build out its beautiful pages!",
         title: "EcoEats",
         subtitle: "Nonprofit Organization"
     },
