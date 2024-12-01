@@ -11,6 +11,7 @@ import websample7 from '../assets/websample7.png'
 import websample8 from '../assets/websample8.png'
 import websample9 from '../assets/websample9.png'
 import websample10 from '../assets/websample10.png'
+import websample11 from '../assets/pawsandrelaxhero.png'
 
 export default function Showcase() {
 
@@ -26,6 +27,12 @@ export default function Showcase() {
             subtitle: "Local Lawn-Mowing Company",
             image: websample3,
             link: "/showcase/greenleaf"
+        },
+        {
+            title: "Paws and Relax",
+            subtitle: "Dog Grooming Company",
+            image: websample11,
+            link: "/showcase/pawsandrelax"
         },
         {
             title: "EasyAP",
@@ -83,7 +90,7 @@ export default function Showcase() {
                   </h1>
               </div>
               <p className="one-title max-w-xl">
-                Take a look at some of our client's websites from large nonprofits to local 
+                Take a look at some of our client's websites ranging from large nonprofits to local 
                 lawn-mowing businesses to tutoring websites.
               </p>
 
