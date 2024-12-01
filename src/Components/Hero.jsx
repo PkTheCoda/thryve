@@ -11,6 +11,7 @@ import websample6 from '../assets/websample6.png'
 import websample8 from '../assets/websample8.png'
 import websample9 from '../assets/websample9.png'
 import websample10 from '../assets/websample10.png'
+import websample11 from '../assets/pawsandrelaxhero.png'
 
 const Hero = () => {
   return (
@@ -48,6 +49,15 @@ const Hero = () => {
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 EcoEats - Nonprofit Company
+              </div>
+            </div>
+
+            <div className='mr-4 rounded-md shadow-md'>
+              <a href="https://pawsandrelax.netlify.app" className='cursor-pointer' target='_blank'>
+                <img src={websample11} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                Paws and Relax - Dog Grooming Company
               </div>
             </div>
 

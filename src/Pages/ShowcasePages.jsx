@@ -6,6 +6,7 @@ import cleangreen_fullpage from '../fullpages/cleangreen_fullpage.png'
 import score1600_fullpage from '../fullpages/score1600_fullpage.png'
 import ecoeats_fullpage from '../fullpages/ecoeats_fullpage.png'
 import greenleaf_fullpage from '../fullpages/greenleaf_fullpage.png'
+import pawsandrelax_fullpage from '../fullpages/pawsandrelax_fullpage.png'
 
 const ShowcasePages = () => {
   const { showcaselink } = useParams();
@@ -26,6 +27,14 @@ const ShowcasePages = () => {
         "CleanGreen is a lawn mowing company based out of Richmond, Virginia that focuses on keeping your lawn clean and beautiful alongside professional landscaping as well! The website uses a clean white-green color scheme.",
         title: "CleanGreen",
         subtitle: "Lawn Mowing Company"
+    },
+    pawsandrelax: {
+        link: "https://pawsandrelax.netlify.app",
+        fullpage: pawsandrelax_fullpage,
+        paragraph:
+        "Paws and Relax is a local dog grooming company based out of Richmond, Virginia that offers Professional grooming to keep your furry friend happy, healthy, and looking their absolute best every day.",
+        title: "Paws and Relax",
+        subtitle: "Dog Grooming Company"
     },
     score1600: {
         link: "https://score1600.com",
