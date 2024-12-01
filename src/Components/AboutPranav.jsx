@@ -6,7 +6,7 @@ const AboutPranav = () => {
         <div className="py-4 flex lg:flex-row flex-col gap-8 max-w-7xl w-full">
             <div className="lg:w-5/12 flex flex-col gap-y-2 items-center">
                 <img 
-                    src="https://www.pranavkonjeti.com/assets/pranavlatest-5dc23609.jpg" 
+                    src="https://www.pranavkonjeti.com/assets/pranavprofile-2fa6d5ac.jpg" 
                     alt="A picture of me! (Pranav Konjeti)" 
                     className='rounded-md shadow-md w-full sm:w-1/2 lg:w-full'
                 />
