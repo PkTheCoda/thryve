@@ -27,10 +27,14 @@ const PricingHome = () => {
             <div className='w-full flex md:flex-row flex-col gap-4'>
 
                 <div className='bg-secondary flex flex-col items-center gap-y-4 rounded-md md:w-7/12 p-10 text-white shadow-md'>
-                    <h2 className="four-title w-full">
-                        <span className="font-bold">$450</span> Down Payment, <span className="font-bold">$30</span> per month,
-                        <span className="block opacity-70">Optional Monthly Maintanence</span>
-                    </h2>
+                    <div className='w-full'>
+                        <h2 className="four-title">
+                            <span className="font-bold">$600</span> Full 5-Page Website
+                        </h2>
+                        <h4 className='two-title opacity-80'>
+                            $20/mo Optional Monthly Maintanence
+                        </h4>
+                    </div>
                     <div className='w-full border-y grid grid-cols-1 gap-6 border-slate-400 text-slate-200 py-8'>
 
                         <div className="flex gap-x-2">
@@ -38,7 +42,7 @@ const PricingHome = () => {
                             <div>
                                 <p className="text-2xl">Built-In Hosting Fees</p>
                                 <h6 className="text-md text-slate-300">
-                                    All hosting fees are built right into the monthly payment - nothing extra!
+                                    All hosting fees are built right into the payment - nothing extra!
                                 </h6>
                             </div>
                         </div>
@@ -118,7 +122,7 @@ const PricingHome = () => {
                             </h2>
                             <p className='text-lg'>
                                 Already have a website but want it redesigned? We'll do it for a 
-                                flat fee of <span className="font-semibold">$400</span> for a standard 5-page site.
+                                flat fee of <span className="font-semibold">$500</span> for a standard 5-page site.
                                 <br />
                                 <br />
                                 This includes websites built with page-builders such as <span className="font-semibold">Wordpress, Wix, Squarespace, etc.</span>
@@ -137,7 +141,7 @@ const PricingHome = () => {
             </div>
 
         </div>
-        <div className='text-base text-center opacity-80'>
+        <div className='text-base text-center opacity-60'>
             Are you a nonprofit or student run organization? <a href="mailto:pranavkonjeti@gmail.com" className='text-blue-700 underline'>Contact Us{' '}</a> and we'll offer you a <b>20%</b> discount.
         </div>
     </div>
