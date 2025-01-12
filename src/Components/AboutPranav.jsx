@@ -38,7 +38,7 @@ const AboutPranav = () => {
 
                     Hey, I’m Pranav! I’m a senior in high school from Richmond, Virginia. I started building websites in sophomore year 
                     and quickly fell in love with web development. To me, it’s more than just coding – it’s a mix of design, prototyping, and 
-                    launching. Over the past year, I’ve freelanced for 25+ clients and made over $15k in revenue!
+                    launching. Over the past year, I’ve freelanced for 20+ clients and made over $15k in revenue!
                 </p>
 
                 <div className='flex flex-col gap-y-2'>

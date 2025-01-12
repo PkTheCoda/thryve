@@ -35,7 +35,7 @@ const PricingHome = () => {
                 <div className='bg-secondary flex flex-col items-center gap-y-4 rounded-md p-10 text-white shadow-md'>
                     <div className='w-full'>
                         <h2 className="four-title">
-                            <span className="font-bold">$750</span> Full 5-Page Website
+                            <span className="font-bold">$700</span> Full 5-Page Website
                         </h2>
                         <h4 className='two-title opacity-80'>
                             $20/mo Optional Monthly Maintanence
