@@ -20,10 +20,10 @@ const MainFeatures = () => {
                 <div className='flex flex-col gap-y-4 items-center'>
                     <div className='flex flex-col gap-y-2 items-center text-center'>
                         <h1 className="six-title text-white">
-                            So What Exactly do we do?
+                            So What Do We Do?
                         </h1>
                         <h1 className='six-title text-white opacity-60'>
-                            Kind of Everything.
+                            Almost Everything.
                         </h1>
                     </div>
                     <p className='text-xl w-4/5 md:w-2/3 lg:w-1/2 font-light text-center text-secondary'>
