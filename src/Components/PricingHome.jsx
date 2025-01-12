@@ -153,7 +153,7 @@ const PricingHome = () => {
                             </h2>
                             <p className='text-lg'>
                                 Already have a website but want it redesigned? We'll do it for a 
-                                flat fee of <span className="font-semibold">$700</span> for a standard 5-page site.
+                                flat fee of <span className="font-semibold">$650</span> for a standard 5-page site.
                                 This includes websites built with page-builders such as <span className="font-semibold">Wordpress, Wix, Squarespace, etc.</span>
                             </p>
                         </div>
