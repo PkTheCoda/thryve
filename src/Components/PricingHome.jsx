@@ -1,5 +1,11 @@
 import React from 'react'
 import { FaCircleCheck } from "react-icons/fa6";
+import { GrHostMaintenance } from "react-icons/gr";
+import { FaExchangeAlt } from "react-icons/fa";
+import { GrDomain } from "react-icons/gr";
+import { SiGoogleanalytics } from "react-icons/si";
+import { TbCalendarCancel } from "react-icons/tb";
+import { PiPaintBrushBroadFill } from "react-icons/pi";
 
 const PricingHome = () => {
   return (
@@ -24,69 +30,94 @@ const PricingHome = () => {
                 </div>
             </div>
 
-            <div className='w-full flex md:flex-row flex-col gap-4'>
+            <div className='w-full flex flex-col gap-4'>
 
-                <div className='bg-secondary flex flex-col items-center gap-y-4 rounded-md md:w-7/12 p-10 text-white shadow-md'>
+                <div className='bg-secondary flex flex-col items-center gap-y-4 rounded-md p-10 text-white shadow-md'>
                     <div className='w-full'>
                         <h2 className="four-title">
-                            <span className="font-bold">$600</span> Full 5-Page Website
+                            <span className="font-bold">$750</span> Full 5-Page Website
                         </h2>
                         <h4 className='two-title opacity-80'>
                             $20/mo Optional Monthly Maintanence
                         </h4>
                     </div>
-                    <div className='w-full border-y grid grid-cols-1 gap-6 border-slate-400 text-slate-200 py-8'>
 
-                        <div className="flex gap-x-2">
-                            <FaCircleCheck className='w-4 h-4 mt-2'/>
-                            <div>
+                    <div className='w-full border-y grid sm:grid-cols-2 md:grid-cols-3 gap-6 border-slate-400 text-slate-200 py-8 gap-y-8'>
+
+                        <div className="flex flex-col gap-2">
+                            <div className='p-2 rounded-md w-max bg-main'>
+                                <GrHostMaintenance className='w-6 h-6 col-span-1 text-main'/>
+                            </div>
+                            <div className='col-span-5'>
                                 <p className="text-2xl">Built-In Hosting Fees</p>
                                 <h6 className="text-md text-slate-300">
-                                    All hosting fees are built right into the payment - nothing extra!
+                                    All hosting fees are built right into the payment; nothing extra!
                                 </h6>
                             </div>
                         </div>
 
-                        <div className="flex gap-x-2">
-                            <FaCircleCheck className='w-4 h-4 mt-2'/>
-                            <div>
-                                <p className="text-2xl">Unlimited Edits</p>
+                        <div className="flex flex-col gap-2">
+                            <div className='p-2 rounded-md w-max bg-main'>
+                                <FaExchangeAlt className='w-6 h-6 col-span-1 text-main'/>
+                            </div>
+                            <div className='col-span-5'>
+                                <p className="text-2xl">Unlimited Revisions</p>
                                 <h6 className="text-md text-slate-300">
-                                    Change anything you want and we'll get it done in less than 24 hours.
+                                    Let us know any changes you need, and we'll get it done in less than 24 hours.
                                 </h6>
                             </div>
                         </div>
 
-                        <div className="flex gap-x-2">
-                            <FaCircleCheck className='w-4 h-4 mt-2'/>
-                            <div>
+                        <div className="flex flex-col gap-2">
+                            <div className='p-2 rounded-md w-max bg-main'>
+                                <GrDomain className='w-6 h-6 col-span-1 text-main'/>
+                            </div>
+                            <div className='col-span-5'>
                                 <p className="text-2xl">Domain Management</p>
                                 <h6 className="text-md text-slate-300">
-                                    We'll take care of everything domain related - from registration to transfers.
+                                    Our team will manage everything domain related, from registration to transfers.
                                 </h6>
                             </div>
                         </div>
 
-                        <div className="flex gap-x-2">
-                            <FaCircleCheck className='w-4 h-4 mt-2'/>
-                            <div>
+                        <div className="flex flex-col gap-2">
+                            <div className='p-2 rounded-md w-max bg-main'>
+                                <SiGoogleanalytics className='w-6 h-6 col-span-1 text-main'/>
+                            </div>
+                            <div className='col-span-5'>
                                 <p className="text-2xl">Analytics</p>
                                 <h6 className="text-md text-slate-300">
-                                    We'll setup a Google Analytics account for you to monitor and track website traffic!
+                                    If needed, we'll setup a Google Analytics account for you to monitor and track website traffic.
                                 </h6>
                             </div>
                         </div>
 
-                        <div className="flex gap-x-2">
-                            <FaCircleCheck className='w-4 h-4 mt-2'/>
-                            <div>
-                                <p className="text-2xl">Cancel Plan, no worries.</p>
+                        <div className="flex flex-col gap-2">
+                            <div className='p-2 rounded-md w-max bg-main'>
+                                <TbCalendarCancel className='w-6 h-6 col-span-1 text-main'/>
+                            </div>
+                            <div className='col-span-5'>
+                                <p className="text-2xl">Cancel Monthly Plan, no worries.</p>
                                 <h6 className="text-md text-slate-300">
-                                    You'll keep your website how it is, your domain, and any other assets (logos, etc.).
+                                    You'll keep your website how it is, your domain, and any other assets (design files, logos, etc.)
                                 </h6>
                             </div>
                         </div>
+
+                        <div className="flex flex-col gap-2">
+                            <div className='p-2 rounded-md w-max bg-main'>
+                                <PiPaintBrushBroadFill className='w-6 h-6 col-span-1 text-main'/>
+                            </div>
+                            <div className='col-span-5'>
+                                <p className="text-2xl">A Beautiful Custom Website</p>
+                                <h6 className="text-md text-slate-300">
+                                    We don't use any prebuilt templates or themes. Your website will have its own unique style and flair.
+                                </h6>
+                            </div>
+                        </div>
+
                     </div>
+
                     <div className="w-full flex justify-end">
                         <a href='#contact' class="w-max flex items-center text-lg h-10 px-4 bg-main rounded-md shadow-md text-main transition300scale focus:outline-none">
                             Contact Us
@@ -94,7 +125,7 @@ const PricingHome = () => {
                     </div>
                 </div>
 
-                <div className='md:w-5/12 flex flex-col justify-center gap-4'>
+                <div className='grid grid-cols-2 gap-4'>
 
                     <div className='bg-white flex flex-col h-max items-center gap-y-4 rounded-md w-full p-10 text-main shadow-md'>
                         <div className='flex w-full flex-col gap-y-2'>
@@ -122,9 +153,7 @@ const PricingHome = () => {
                             </h2>
                             <p className='text-lg'>
                                 Already have a website but want it redesigned? We'll do it for a 
-                                flat fee of <span className="font-semibold">$500</span> for a standard 5-page site.
-                                <br />
-                                <br />
+                                flat fee of <span className="font-semibold">$700</span> for a standard 5-page site.
                                 This includes websites built with page-builders such as <span className="font-semibold">Wordpress, Wix, Squarespace, etc.</span>
                             </p>
                         </div>
