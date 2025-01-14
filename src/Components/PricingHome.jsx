@@ -125,7 +125,7 @@ const PricingHome = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-2 gap-4'>
+                <div className='grid md:grid-cols-2 gap-4'>
 
                     <div className='bg-white flex flex-col h-max items-center gap-y-4 rounded-md w-full p-10 text-main shadow-md'>
                         <div className='flex w-full flex-col gap-y-2'>
