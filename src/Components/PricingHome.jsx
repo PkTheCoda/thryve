@@ -19,10 +19,7 @@ const PricingHome = () => {
                 </h1>
                 <div className='font-light text-xl text-slate-700 leading-8'>
                     <p className='mb-3'>
-                        Most web development agencies don't tell you their prices. Why? So they can charge
-                        you some outlandish price under the basis of "custom-pricing". We don't do that here.
-                        Our pricing model is <span className="font-semibold">super simple</span> and is what
-                        you can expect 99% of the time (unless you're looking for something very custom - then we'll talk!)
+                    Many agencies hide their prices with 'custom pricing.' Not us. Our pricing is <span className="font-semibold">straightforward</span> and clear—99% of the time. If you need something truly unique, we’ll discuss it!
                     </p>
                     {/* <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
                         Get a Quote
