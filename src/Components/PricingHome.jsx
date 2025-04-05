@@ -35,7 +35,7 @@ const PricingHome = () => {
                 <div className='bg-secondary flex flex-col items-center gap-y-4 rounded-md p-10 text-white shadow-md'>
                     <div className='w-full'>
                         <h2 className="four-title">
-                            <span className="font-bold">$700</span> Full 5-Page Website
+                            <span className="font-bold">$899</span> Full 5-Page Website
                         </h2>
                         <h4 className='two-title opacity-80'>
                             $20/mo Optional Monthly Maintanence
@@ -153,7 +153,7 @@ const PricingHome = () => {
                             </h2>
                             <p className='text-lg'>
                                 Already have a website but want it redesigned? We'll do it for a 
-                                flat fee of <span className="font-semibold">$650</span> for a standard 5-page site.
+                                flat fee of <span className="font-semibold">$800</span> for a standard 5-page site.
                                 This includes websites built with page-builders such as <span className="font-semibold">Wordpress, Wix, Squarespace, etc.</span>
                             </p>
                         </div>

@@ -4,7 +4,7 @@ const AboutPranav = () => {
   return (
     <div className='font-outfit py-10 flex justify-center bg-[#faf7ee] px-4 lg:px-0'>
         <div className="py-4 flex lg:flex-row flex-col gap-8 max-w-7xl w-full">
-            <div className="lg:w-5/12 flex flex-col gap-y-2 items-center">
+            <div className="lg:w-4/12 flex flex-col gap-y-2 items-center">
                 <img 
                     src="https://www.pranavkonjeti.com/assets/pranavprofile-2fa6d5ac.jpg" 
                     alt="A picture of me! (Pranav Konjeti)" 
@@ -19,7 +19,7 @@ const AboutPranav = () => {
                     </a> */}
                 </div>
             </div>
-            <div className="lg:w-7/12 flex flex-col justify-center gap-y-2 text-[#1D4B40]">
+            <div className="lg:w-8/12 flex flex-col justify-center gap-y-2 text-[#1D4B40]">
 
                 <div>
                     {/* <p className="paragraph-responsive tracking-wide font-light">
@@ -58,7 +58,7 @@ const AboutPranav = () => {
                 <>
                     <dl class="bg-white dark:bg-gray-800 rounded-lg shadow-lg sm:grid sm:grid-cols-3 mt-2">
                         <div
-                            class="flex flex-col p-6 text-center border-b border-gray-100 dark:border-gray-700 sm:border-0 sm:border-r">
+                            class="flex flex-col items-center justify-center p-6 text-center border-b border-gray-100 dark:border-gray-700 sm:border-0 sm:border-r">
                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500 dark:text-gray-400" id="item-1">
                             Views Across my Websites
                             </dt>
@@ -68,7 +68,7 @@ const AboutPranav = () => {
                             </dd>
                         </div>
                         <div
-                            class="flex flex-col p-6 text-center border-t border-b border-gray-100 dark:border-gray-700 sm:border-0 sm:border-l sm:border-r">
+                            class="flex flex-col items-center justify-center p-6 text-center border-t border-b border-gray-100 dark:border-gray-700 sm:border-0 sm:border-l sm:border-r">
                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500 dark:text-gray-400">
                             Lifetime Visitors across my websites
                             </dt>
@@ -78,13 +78,13 @@ const AboutPranav = () => {
                             </dd>
                         </div>
                         <div
-                            class="flex flex-col p-6 text-center border-t border-gray-100 dark:border-gray-700 sm:border-0 sm:border-l">
+                            class="flex flex-col items-center justify-center p-6 text-center border-t border-gray-100 dark:border-gray-700 sm:border-0 sm:border-l">
                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500 dark:text-gray-400">
                             Websites Made for Clients
                             </dt>
                             <dd class="order-1 text-5xl font-extrabold leading-none dark:text-indigo-100"
                             id="sponsorsCount">
-                            20+
+                            25+
                             </dd>
                         </div>
                     </dl>
