@@ -22,13 +22,13 @@ const Hero = () => {
         <div className="py-4 w-full flex flex-col items-center gap-y-4 justify-center">
 
           <h1 className='seven-title text-center font-semibold tracking-tight text-[#1f483e]'>
-            We build stunning websites
-            <span className="opacity-70 block">At low, affordable prices.</span>
+            We don’t just build websites.
+            <span className="opacity-70 block">We build first impressions.</span>
           </h1>
 
           <p className='paragraph-responsive text-xl text-main leading-loose text-center max-w-4xl'>
-            Thryve specializes in small business web design and development for clients worldwide. Our websites are 
-            hand-coded without any page builders to ensure the best perfomance and maximum ranking!
+            Thryve designs and develops custom websites for businesses around the world. No page builders, 
+            just clean, hand-written code for speed, performance, and SEO.
           </p>
 
           <div class="w-full flex justify-center gap-4">               
@@ -165,10 +165,10 @@ const Hero = () => {
           <div className="p-10 bg-white rounded-md shadow-md flex flex-col gap-y-2">
             <div className="flex gap-x-2 items-center text-xl font-light">
               <FaClockRotateLeft className='h-4 w-4'/>
-              Your business without a website
+              Your business before a website
             </div>
             <h2 className="four-title font-medium">
-              Limited Reach, Stalled Growth: Business Without a Website
+              Limited Reach. Missed Opportunities.
             </h2>
             <div className='font-outfit w-full lg:w-full flex md:flex-row flex-col gap-x-2'>
               <ul class="mt-4 space-y-3 text-base text-slate-700 sm:text-xl">
@@ -176,25 +176,25 @@ const Hero = () => {
                   <div class="shrink-0 py-1.5">
                     <svg class="fill-error-200 h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
                   </div>
-                  Invisible to online searches: Potential customers can't find you.
+                  Invisible online: Customers can’t find you through search.
                 </li>
                 <li class="flex items-start gap-3">
                   <div class="shrink-0 py-1.5">
                     <svg class="fill-error-200 h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
                   </div>
-                  Limited marketing reach: Stuck relying on word-of-mouth.
+                  Stuck offline: Word-of-mouth is your only pipeline.
                 </li>
                 <li class="flex items-start gap-3">
                   <div class="shrink-0 py-1.5">
                     <svg class="fill-error-200 h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
                   </div>
-                  No 24/7 sales channel: Missing out on potential conversions
+                  No 24/7 presence: You’re closed while potential customers are browsing.
                 </li>
                 <li class="flex items-start gap-3">
                   <div class="shrink-0 py-1.5">
                     <svg class="fill-error-200 h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
                   </div>
-                  Unprofessional image: Falls behind competitors with an online presence
+                  Lacks credibility: Your competitors look more professional.
                 </li>
               </ul>
             </div>
@@ -206,7 +206,7 @@ const Hero = () => {
               <FaClockRotateLeft className='h-4 w-4 -rotate-180'/>
             </div>
             <h2 className="four-title font-medium">
-              24/7 Salesman, Global Reach: Business with a Website
+              More Customers. More Trust. More Growth.
             </h2>
             <div className='font-outfit w-full lg:w-full flex md:flex-row flex-col gap-x-2'>
               <ul class="mt-4 space-y-3 text-base sm:text-xl">
@@ -220,19 +220,19 @@ const Hero = () => {
                   <div class="shrink-0 py-1.5">
                     <svg class="fill-error-200 h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
                   </div>
-                  Expand your marketing reach: Attract a global audience with a website.
+                  Reach beyond borders: Attract clients from anywhere.
                 </li>
                 <li class="flex items-start gap-3">
                   <div class="shrink-0 py-1.5">
                     <svg class="fill-error-200 h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
                   </div>
-                  Convert visitors 24/7: Your website works tirelessly, closing deals even while you sleep.
+                  Convert visitors 24/7: Your website works even when you don't.
                 </li>
                 <li class="flex items-start gap-3">
                   <div class="shrink-0 py-1.5">
                     <svg class="fill-error-200 h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
                   </div>
-                  Project a professional image: Build trust and credibility with a polished online presence
+                  Look credible: Build instant trust with a professional presence.
                 </li>
               </ul>
             </div>
