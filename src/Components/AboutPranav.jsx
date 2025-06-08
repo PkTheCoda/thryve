@@ -4,14 +4,15 @@ const AboutPranav = () => {
   return (
     <div className='font-outfit py-10 flex justify-center bg-[#faf7ee] px-4 lg:px-0'>
         <div className="py-4 flex lg:flex-row flex-col gap-8 max-w-7xl w-full">
-            <div className="lg:w-4/12 flex flex-col gap-y-2 items-center">
+
+            <div className="lg:w-4/12 flex flex-col gap-y-2 items-center justify-center ">
                 <img 
                     src="https://www.pranavkonjeti.com/assets/pranavprofile-2fa6d5ac.jpg" 
                     alt="A picture of me! (Pranav Konjeti)" 
                     className='rounded-md shadow-md w-full sm:w-1/2 lg:w-full'
                 />
                 <div className='flex sm:flex-row flex-col gap-2 items-center'>
-                    <a href='https://pranavkonjeti.com' target='_blank' class="w-max flex items-center text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
+                    <a href='https://me.pranavkonjeti.com' target='_blank' class="w-max flex items-center text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
                         View my Portfolio
                     </a>
                     {/* <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
@@ -19,6 +20,7 @@ const AboutPranav = () => {
                     </a> */}
                 </div>
             </div>
+
             <div className="lg:w-8/12 flex flex-col justify-center gap-y-2 text-[#1D4B40]">
 
                 <div>
@@ -26,19 +28,17 @@ const AboutPranav = () => {
                         A bit about the Founder
                     </p> */}
                     <h2 className="six-title font-medium">
-                        Meet your
-                        <span className=" opacity-70">{' '}Developer</span>
+                        Hey, I'm
+                        <span className=" opacity-70">{' '}Pranav</span>
                     </h2>
                 </div>
 
-                <p className='text-xl tracking-wide font-light leading-9'>
-                    {/* Hey! I'm Pranav - a Senior in Highschool based out of Richmond Virginia. When I was in my Sophomore 
-                    year of Highschool, I picked up web-design and web-development and absolutely fell in love with it! That passion has 
-                    led me to create my own web-design agency: <span className="font-bold">Thryve.</span> */}
+                <p className='text-xl tracking-wide font-light leading-8'>
 
-                    Hey, I’m Pranav! I’m a senior in high school from Richmond, Virginia. I started building websites in sophomore year 
-                    and quickly fell in love with web development. To me, it’s more than just coding – it’s a mix of design, prototyping, and 
-                    launching. Over the past year, I’ve freelanced for 20+ clients and made over $15k in revenue!
+                    I’m an incoming freshman studying <b>Computer Science @ UIUC</b> from Richmond, Virginia. I started building websites in sophomore year 
+                    and quickly fell in love with the process. For me, web development is where logic meets creativity—a canvas for design, 
+                    storytelling, and building something that lasts. Over the past year, I’ve freelanced for 20+ clients and made over $15k 
+                    in revenue!
                 </p>
 
                 <div className='flex flex-col gap-y-2'>
@@ -47,11 +47,11 @@ const AboutPranav = () => {
                     </h2>
                     <p className='text-xl tracking-wide font-light leading-8'>
                         My first website, <a href="https://talem.org" target='_blank' className='underline'>talem.org</a>, 
-                        which helps high schoolers find opportunities, has reached over 1 million views and raised over $3,000+. 
+                        which connects students with academic opportunities, garnered over 1M page visits, 200k lifetime users, and raised $3000. 
                         After that, I launched a <a href="https://learntheweb.org" target='_blank' className='underline'>computer science learning platform</a> {' '}
                         and a site for <a href="https://desource.app" target='_blank' className='underline'>web developers to find design resources.</a> {' '}
                         Today, I’m focusing on building my <a href="https://www.youtube.com/watch?v=yoCWJ0LHDfU&t=32s" target='_blank' className='underline'>edtech startup</a> {' '}
-                        while also freelancing for clients around the world.
+                        while also freelancing for organizations around the world.
                     </p>
                 </div>
                 
@@ -80,7 +80,7 @@ const AboutPranav = () => {
                         <div
                             class="flex flex-col items-center justify-center p-6 text-center border-t border-gray-100 dark:border-gray-700 sm:border-0 sm:border-l">
                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500 dark:text-gray-400">
-                            Websites Made for Clients
+                            Websites Developed for Clients
                             </dt>
                             <dd class="order-1 text-5xl font-extrabold leading-none dark:text-indigo-100"
                             id="sponsorsCount">
@@ -88,8 +88,8 @@ const AboutPranav = () => {
                             </dd>
                         </div>
                     </dl>
-                    <p className='text-md tracking-wide font-light leading-9'>
-                        **Take a look at my <a href="https://pranavkonjeti.com" className="underline">portfolio site</a> 
+                    <p className='text-md tracking-wide font-light leading-9 italic'>
+                        *Take a look at my <a href="https://me.pranavkonjeti.com" className="underline">portfolio site</a> 
                         {' '}and resume if you're curious on what exactly I've built!
                     </p>
                 </>

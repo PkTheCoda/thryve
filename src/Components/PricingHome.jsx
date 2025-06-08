@@ -14,16 +14,13 @@ const PricingHome = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2'>
                 <h1 className="six-title pr-4">
-                    Finally, a web-dev agency with crystal clear, 
-                    <span className="opacity-70">{' '}straight-forward pricing.</span>
+                    Finally, Web Design Pricing
+                    <span className="opacity-70">{' '}That Makes Sense.</span>
                 </h1>
                 <div className='font-light text-xl text-slate-700 leading-8'>
                     <p className='mb-3'>
-                    Many agencies hide their prices with 'custom pricing.' Not us. Our pricing is <span className="font-semibold">straightforward</span> and clear—99% of the time. If you need something truly unique, we’ll discuss it!
+                    No vague “custom quotes” or hidden fees. At Thryve, our pricing is clear, upfront, and built to fit most projects. Got something out of the ordinary? We'll discuss it; no surprises.
                     </p>
-                    {/* <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-10 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
-                        Get a Quote
-                    </a> */}
                 </div>
             </div>
 
@@ -48,7 +45,7 @@ const PricingHome = () => {
                             <div className='col-span-5'>
                                 <p className="text-2xl">Built-In Hosting Fees</p>
                                 <h6 className="text-md text-slate-300">
-                                    All hosting fees are built right into the payment; nothing extra!
+                                    Hosting is included in your plan, no hidden fees or surprise charges, ever.
                                 </h6>
                             </div>
                         </div>
@@ -60,7 +57,7 @@ const PricingHome = () => {
                             <div className='col-span-5'>
                                 <p className="text-2xl">Unlimited Revisions</p>
                                 <h6 className="text-md text-slate-300">
-                                    Let us know any changes you need, and we'll get it done in less than 24 hours.
+                                    Need edits? We’ll take care of them within 24 hours, as many times as you need.
                                 </h6>
                             </div>
                         </div>
@@ -72,7 +69,7 @@ const PricingHome = () => {
                             <div className='col-span-5'>
                                 <p className="text-2xl">Domain Management</p>
                                 <h6 className="text-md text-slate-300">
-                                    Our team will manage everything domain related, from registration to transfers.
+                                    Our team manages everything domain related, from registration to transfers to renewals.
                                 </h6>
                             </div>
                         </div>
@@ -84,7 +81,7 @@ const PricingHome = () => {
                             <div className='col-span-5'>
                                 <p className="text-2xl">Analytics</p>
                                 <h6 className="text-md text-slate-300">
-                                    If needed, we'll setup a Google Analytics account for you to monitor and track website traffic.
+                                    We’ll set up Google Analytics so you can track performance and make smarter decisions.
                                 </h6>
                             </div>
                         </div>
@@ -96,7 +93,7 @@ const PricingHome = () => {
                             <div className='col-span-5'>
                                 <p className="text-2xl">Cancel Monthly Plan, no worries.</p>
                                 <h6 className="text-md text-slate-300">
-                                    You'll keep your website how it is, your domain, and any other assets (design files, logos, etc.)
+                                    You'll keep your website how it is, plus your domain, design files, and any other assets.
                                 </h6>
                             </div>
                         </div>
@@ -108,7 +105,7 @@ const PricingHome = () => {
                             <div className='col-span-5'>
                                 <p className="text-2xl">A Beautiful Custom Website</p>
                                 <h6 className="text-md text-slate-300">
-                                    We don't use any prebuilt templates or themes. Your website will have its own unique style and flair.
+                                    No prebuilt templates or drag-and-drop editors; we design each site originally from scratch.
                                 </h6>
                             </div>
                         </div>
@@ -130,8 +127,7 @@ const PricingHome = () => {
                                 Custom Contracts
                             </h2>
                             <p className='text-lg'>
-                                Need more than a standard 5-page business website? We'll do custom pricing
-                                based on your scope of work, number of extra pages, and the time involved.
+                                Only need a landing page? Or looking for more than 5 pages? We’ll give you a custom quote based on your project’s scope, page count, and complexity.
                             </p>
                         </div>
                         <div className='w-full border-t grid grid-cols-1 gap-6 border-slate-400 text-main'>
