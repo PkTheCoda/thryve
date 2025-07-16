@@ -13,6 +13,7 @@ import websample9 from '../assets/websample9.png'
 import websample10 from '../assets/websample10.png'
 import websample11 from '../assets/pawsandrelaxhero.png'
 import websample12 from '../assets/infosavvyhero.png'
+import websample13 from '../assets/ultra1.png'
 
 const Hero = () => {
   return (
@@ -59,6 +60,15 @@ const Hero = () => {
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 Paws and Relax - Dog Grooming Company
+              </div>
+            </div>
+
+            <div className='mr-4 rounded-md shadow-md'>
+              <a href="https://useultra.ai" className='cursor-pointer' target='_blank'>
+                <img src={websample13} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                Ultra - EdTech Startup (YC W24)
               </div>
             </div>
 
@@ -116,14 +126,14 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className='mr-4 rounded-md shadow-md'>
+            {/* <div className='mr-4 rounded-md shadow-md'>
               <a href="https://amcacademy.vercel.app" className='cursor-pointer' target='_blank'>
                 <img src={websample5} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 AMC Academy - Tutoring Company
               </div>
-            </div>
+            </div> */}
 
             <div className='mr-4 rounded-md shadow-md'>
               <a href="https://learntheweb.org" className='cursor-pointer' target='_blank'>

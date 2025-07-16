@@ -12,6 +12,7 @@ import websample8 from '../assets/websample8.png'
 import websample9 from '../assets/websample9.png'
 import websample10 from '../assets/websample10.png'
 import websample11 from '../assets/pawsandrelaxhero.png'
+import ultrapic from '../assets/ultra1.png'
 
 export default function Showcase() {
 
@@ -21,6 +22,12 @@ export default function Showcase() {
             subtitle: "Nonprofit Food-Waste Organization",
             image: websample2,
             link: "/showcase/ecoeats"
+        },
+        {
+            title: "Ultra AI",
+            subtitle: "EdTech Startup",
+            image: ultrapic,
+            link: "/showcase/ultra"
         },
         {
             title: "GreenLeaf Mowing",

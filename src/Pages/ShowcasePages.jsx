@@ -7,6 +7,7 @@ import score1600_fullpage from '../fullpages/score1600_fullpage.png'
 import ecoeats_fullpage from '../fullpages/ecoeats_fullpage.png'
 import greenleaf_fullpage from '../fullpages/greenleaf_fullpage.png'
 import pawsandrelax_fullpage from '../fullpages/pawsandrelax_fullpage.png'
+import ultra_fullpage from '../fullpages/ultra_fullpage.png'
 
 const ShowcasePages = () => {
   const { showcaselink } = useParams();
@@ -19,6 +20,14 @@ const ShowcasePages = () => {
         "EasyAP is a tech startup focusing on making AP Exam prep easier. The website has a massive database of 500+ MCQ and FRQ questions in more than 10+ AP subjects that users can answer. The website also uses a custom-trained AI model to provide feedback, hints, guidance, and more.",
         title: "EasyAP",
         subtitle: "AP-Exam Prep Startup"
+    },
+    ultra: {
+        link: "https://useultra.ai",
+        fullpage: ultra_fullpage,
+        paragraph:
+        "Ultra is a Y-Combinator backed EdTech startup that provides a suite of tools making it easier for ambitious students to chase their dreams -- from college evaluations to exclusive opportunities to detailed roadmaps. ",
+        title: "Ultra",
+        subtitle: "EdTech Startup"
     },
     cleangreen: {
         link: "https://cleanthegreen.org",
