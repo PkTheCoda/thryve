@@ -50,7 +50,7 @@ const AboutPranav = () => {
                         After that, I launched a <a href="https://learntheweb.org" target='_blank' className='underline'>computer science learning platform</a> {' '}
                         and a site for <a href="https://desource.app" target='_blank' className='underline'>web developers to find design resources.</a> {' '}
                         Today, I’m focusing on building my <a href="https://www.youtube.com/watch?v=yoCWJ0LHDfU&t=32s" target='_blank' className='underline'>edtech startup</a> {' '}
-                        while also freelancing for organizations around the world.
+                        while also freelancing for companies & businesses around the world.
                     </p>
                 </div>
                 
@@ -83,7 +83,7 @@ const AboutPranav = () => {
                             </dt>
                             <dd class="order-1 text-5xl font-extrabold leading-none dark:text-indigo-100"
                             id="sponsorsCount">
-                            25+
+                            30+
                             </dd>
                         </div>
                     </dl>
