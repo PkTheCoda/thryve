@@ -35,10 +35,9 @@ const AboutPranav = () => {
 
                 <p className='text-xl tracking-wide font-light leading-8'>
 
-                    I’m an incoming freshman studying <b>Computer Science @ UIUC</b> from Richmond, Virginia. I started building websites in sophomore year 
-                    and quickly fell in love with the process. For me, web development is where logic meets creativity—a canvas for design, 
-                    storytelling, and building something that lasts. Over the past year, I’ve freelanced for 20+ clients and made over $15k 
-                    in revenue!
+                    I’m an incoming freshman studying <b>Computer Science @ UIUC</b> from Richmond, Virginia. I started building websites in my sophomore year 
+                    of high school and quickly fell in love with the process. For me, web development is a mix between logic and creativity. Over the past year, 
+                    I’ve had the opportunity to work with over 30+ different businesses and help improve their online presence!
                 </p>
 
                 <div className='flex flex-col gap-y-2'>
