@@ -86,6 +86,6 @@
   }
 
   .testimonial-block {
-    @apply bg-[#53776e] px-2 rounded-md text-[#faf7ee]
+    @apply bg-[#1e512c] px-2 rounded-md text-[#faf7ee] shadow-md
   }
 }

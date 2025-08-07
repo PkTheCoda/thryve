@@ -12,6 +12,7 @@ const Footer = () => {
                     <div class="p-5">
                         <div class="text-sm uppercase text-secondary font-bold">Navigation</div>
                         <a class="my-3 block" href="/#">Home</a>
+                        <a class="my-3 block" href="/showcase">Showcase</a>
                         <a class="my-3 block" href="/contact">Contact</a>
                     </div>
                     <div class="p-5">

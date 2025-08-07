@@ -27,17 +27,34 @@ const Hero = () => {
             <span className="opacity-70 block">We build first impressions.</span>
           </h1>
 
-          <p className='paragraph-responsive text-xl text-main leading-loose text-center max-w-4xl'>
+          <p className='paragraph-responsive text-xl text-main leading-8 text-center max-w-3xl'>
             Thryve designs and develops custom websites for businesses around the world. No page builders, 
             just clean, hand-written code for speed, performance, and SEO.
           </p>
 
           <div class="w-full flex justify-center gap-4">               
-              <a 
-                href='/showcase' 
-                class="px-4 py-1 text-center transition300scale flex items-center justify-center text-lg bg-[#387e62] transition300 rounded shadow-md text-white focus:outline-none">
-                  View our work
-              </a>
+              <button class="group shadow-md relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-[#387e62] py-1 pl-6 pr-14 font-medium text-neutral-50">
+              <span class="z-10 pr-2 group-hover:text-neutral-900">View Our Work</span>
+              <div class="absolute right-1 inline-flex h-12 w-12 items-center justify-end rounded-full bg-white transition-[width] group-hover:w-[calc(100%-8px)]">
+                <div class="mr-3.5 flex items-center justify-center">
+                  <svg
+                    width="15"
+                    height="15"
+                    viewBox="0 0 15 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 text-neutral-950"
+                  >
+                    <path
+                      d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </button>
           </div>
 
         </div>
@@ -171,8 +188,8 @@ const Hero = () => {
             (Well, that's exactly what we do here!)
           </p>
         </div>
-        <div className="p-4 w-full grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="p-10 bg-white rounded-md shadow-md flex flex-col gap-y-2">
+        <div className="p-4 w-full grid grid-cols-1 md:grid-cols-2">
+          <div className="p-10 bg-white rounded-md shadow-md flex flex-col gap-y-2 -rotate-1">
             <div className="flex gap-x-2 items-center text-xl font-light">
               <FaClockRotateLeft className='h-4 w-4'/>
               Your business before a website
@@ -209,7 +226,8 @@ const Hero = () => {
               </ul>
             </div>
           </div>
-          <div className="p-10 text-[#142d27] bg-[#80e2ca] rounded-md shadow-md flex flex-col gap-y-2">
+          
+          <div className="p-10 text-[#142d27] bg-[#acebad] rounded-md shadow-md flex flex-col gap-y-2 relative rotate-1 top-8 right-4">
       
             <div className="flex gap-x-2 items-center text-xl font-light">
               Your Business after a website

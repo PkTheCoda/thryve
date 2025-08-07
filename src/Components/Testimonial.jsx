@@ -15,7 +15,7 @@ const Testimonial = () => {
                             fill="currentColor"></path>
                     </svg>
                     <blockquote>
-                        <p class="five-title font-medium text-gray-700 dark:text-white leading-normal lg:leading-[3.8rem]">
+                        <p class="five-title font-medium text-gray-800 dark:text-white leading-normal lg:leading-[3.8rem]">
                             I had a smaller budget, but Thryve{' '}
                             <span className="testimonial-block">exceeded my expectations.</span>. Within just a few days, Pranav and his team created an 
                             amazing homepage for my lawn-mowing business and setup everything from forms to analytics
