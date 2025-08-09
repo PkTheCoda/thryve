@@ -17,6 +17,9 @@ export default function Navbar() {
 
   return (
     <>
+    <div className='py-4 bg-secondary text-center text-slate-50 font-outfit'>
+      <span className='font-bold'>Notice:</span> We are currently fully booked out for August, but still accepting new clients for September.
+    </div>
       <div className="px-10 w-full bg-[#faf7ee] flex justify-center items-center">
 
         <header className="w-full z-50">
