@@ -13,9 +13,9 @@ const PricingHome = () => {
         <div className="max-w-7xl py-4 w-full text-main flex flex-col gap-y-14 px-4">
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2'>
-                <h1 className="six-title pr-4">
+                <h1 className="six-title pr-4 font-semibold">
                     Finally, Web Design Pricing
-                    <span className="opacity-70">{' '}That Makes Sense.</span>
+                    <span className="opacity-70">{' '} <span className='underline'>That Makes Sense</span>.</span>
                 </h1>
                 <div className='font-light text-xl text-slate-700 leading-8'>
                     <p className='mb-3'>
@@ -164,7 +164,7 @@ const PricingHome = () => {
 
         </div>
         <div className='text-base text-center opacity-60'>
-            Are you a nonprofit or student run organization? <a href="mailto:pranavkonjeti@gmail.com" className='text-blue-700 underline'>Contact Us{' '}</a> and we'll offer you a <b>20%</b> discount.
+            Are you a nonprofit or student run organization? <a href="mailto:pranavkonjeti@gmail.com" className='text-blue-700 underline'>Contact Us</a> {' '} and we'll offer you a <b>20%</b> discount.
         </div>
     </div>
 

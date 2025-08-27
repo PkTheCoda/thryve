@@ -33,7 +33,7 @@ const Hero = () => {
           </p>
 
           <div class="w-full flex justify-center gap-4">               
-              <button class="group shadow-md relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-[#387e62] py-1 pl-6 pr-14 font-medium text-neutral-50">
+              <a href='/showcase' class="group shadow-md relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-[#387e62] py-1 pl-6 pr-14 font-medium text-neutral-50">
               <span class="z-10 pr-2 group-hover:text-neutral-900">View Our Work</span>
               <div class="absolute right-1 inline-flex h-12 w-12 items-center justify-end rounded-full bg-white transition-[width] group-hover:w-[calc(100%-8px)]">
                 <div class="mr-3.5 flex items-center justify-center">
@@ -54,7 +54,7 @@ const Hero = () => {
                   </svg>
                 </div>
               </div>
-            </button>
+            </a>
           </div>
 
         </div>
@@ -181,7 +181,7 @@ const Hero = () => {
 
       <div className="w-full max-w-6xl relative z-50 flex flex-col gap-y-2 tracking-tighter items-center justify-center">
         <div className='text-center flex flex-col max-w-4xl gap-y-2 text-[#1f483e]'>
-          <h2 className="five-title font-medium">
+          <h2 className="five-title font-semibold">
             Imagine reaching thousands of new customers and expanding your brand's visibility worldwide.
           </h2>
           <p className='paragraph-responsive font-light'>

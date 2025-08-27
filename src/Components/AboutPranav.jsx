@@ -27,7 +27,7 @@ const AboutPranav = () => {
                     {/* <p className="paragraph-responsive tracking-wide font-light">
                         A bit about the Founder
                     </p> */}
-                    <h2 className="six-title font-medium">
+                    <h2 className="six-title font-semibold">
                         Hey, I'm
                         <span className=" opacity-70">{' '}Pranav</span>
                     </h2>

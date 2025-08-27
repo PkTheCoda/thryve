@@ -17,9 +17,7 @@ const Testimonial = () => {
                     <blockquote>
                         <p class="five-title font-medium text-gray-800 dark:text-white leading-normal lg:leading-[3.8rem]">
                             I had a smaller budget, but Thryve{' '}
-                            <span className="testimonial-block">exceeded my expectations.</span>. Within just a few days, Pranav and his team created an 
-                            amazing homepage for my lawn-mowing business and setup everything from forms to analytics
-                            and I already see higher traffic to my site. <span className="testimonial-block">An incredible agency to partner with.</span>
+                            <span className="testimonial-block">exceeded my expectations</span>. In just a few days, Pranav and his team built a beautiful homepage for my lawn-mowing business, set up everything I needed, and I’m already seeing more traffic. <span className="testimonial-block">Highly recommend working with them!</span>
                         </p>
                     </blockquote>
                     <figcaption class="flex flex-col lg:flex-row items-center justify-center mt-6 space-x-3">
