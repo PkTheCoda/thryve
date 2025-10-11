@@ -14,6 +14,7 @@ import websample10 from '../assets/websample10.png'
 import websample11 from '../assets/pawsandrelaxhero.png'
 import websample12 from '../assets/infosavvyhero.png'
 import websample13 from '../assets/ultra1.png'
+import websample14 from '../assets/crackd_hero.png'
 
 const Hero = () => {
   return (
@@ -108,6 +109,15 @@ const Hero = () => {
             </div>
 
             <div className='mr-4 rounded-md shadow-md'>
+              <a href="https://crackdredesign.vercel.app" className='cursor-pointer' target='_blank'>
+                <img src={websample14} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
+              </a>
+              <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
+                Crackd - Exam Prep Company
+              </div>
+            </div>
+
+            <div className='mr-4 rounded-md shadow-md'>
               <a href="#" className='cursor-pointer' target='_blank'>
                 <img src={websample10} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
               </a>
@@ -134,14 +144,14 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className='mr-4 rounded-md shadow-md'>
+            {/* <div className='mr-4 rounded-md shadow-md'>
               <a href="https://desource.app" className='cursor-pointer' target='_blank'>
                 <img src={websample4} alt="Picture of website sample #1 Thryve has designed" className='h-[20rem] lg:h-[30rem] rounded-t-md'/>
               </a>
               <div className='w-full py-2 text-white text-center bg-secondary rounded-b-md'>
                 Desource - Software Website
               </div>
-            </div>
+            </div> */}
 
             {/* <div className='mr-4 rounded-md shadow-md'>
               <a href="https://amcacademy.vercel.app" className='cursor-pointer' target='_blank'>
@@ -173,7 +183,7 @@ const Hero = () => {
             
           </Marquee>
           <div className="text-center opacity-80">
-            Click on a website to view it live!
+            Click on a website to view its live design!
           </div>
         </div>
 

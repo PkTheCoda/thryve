@@ -8,6 +8,7 @@ import ecoeats_fullpage from '../fullpages/ecoeats_fullpage.png'
 import greenleaf_fullpage from '../fullpages/greenleaf_fullpage.png'
 import pawsandrelax_fullpage from '../fullpages/pawsandrelax_fullpage.png'
 import ultra_fullpage from '../fullpages/ultra_fullpage.png'
+import crackd_fullpage from '../fullpages/crackd_fullpage.png'
 
 const ShowcasePages = () => {
   const { showcaselink } = useParams();
@@ -27,6 +28,14 @@ const ShowcasePages = () => {
         paragraph:
         "Ultra is a Y-Combinator backed EdTech startup that provides a suite of tools making it easier for ambitious students to chase their dreams -- from college evaluations to exclusive opportunities to detailed roadmaps. ",
         title: "Ultra",
+        subtitle: "EdTech Startup"
+    },
+    crackd: {
+        link: "https://thryvedesign.com",
+        fullpage: crackd_fullpage,
+        paragraph:
+        "Crackd is an online SAT & ACT prep platform with over 100,000 users to date. It serves as the ultimate test prep platform with personalized study plans, expert tutors, and engaging practice materials.",
+        title: "Crackd",
         subtitle: "EdTech Startup"
     },
     cleangreen: {

@@ -13,6 +13,7 @@ import websample9 from '../assets/websample9.png'
 import websample10 from '../assets/websample10.png'
 import websample11 from '../assets/pawsandrelaxhero.png'
 import ultrapic from '../assets/ultra1.png'
+import crackdpic from '../assets/crackd_hero.png'
 
 export default function Showcase() {
 
@@ -28,6 +29,12 @@ export default function Showcase() {
             subtitle: "EdTech Startup",
             image: ultrapic,
             link: "/showcase/ultra"
+        },
+        {
+            title: "Crackd",
+            subtitle: "EdTech Startup",
+            image: crackdpic,
+            link: "/showcase/crackd"
         },
         {
             title: "GreenLeaf Mowing",
@@ -70,12 +77,6 @@ export default function Showcase() {
             subtitle: "Online Tutoring Platform",
             image: websample6,
             link: "https://learntheweb.org"
-        },
-        {
-            title: "Vihaana",
-            subtitle: "Music Nonprofit Organization",
-            image: websample7,
-            link: "https://vihaana.org"
         },
         
     ]
