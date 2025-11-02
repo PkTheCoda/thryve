@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/crackd",
+      "destination": "/showcase/crackd",
+      "permanent": true
+    },
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
