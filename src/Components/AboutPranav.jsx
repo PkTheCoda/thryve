@@ -1,19 +1,24 @@
 import React from 'react'
+import headshot from '../assets/headshot.png'
+import { IoChatboxEllipses } from 'react-icons/io5'
+import { FaGithub, FaLinkedin } from 'react-icons/fa6'
+import { FaMailBulk } from 'react-icons/fa'
+import { MdOutlineBusinessCenter } from 'react-icons/md'
 
 const AboutPranav = () => {
   return (
-    <div className='font-outfit py-10 flex justify-center bg-[#faf7ee] px-4 lg:px-0'>
-        <div className="py-4 flex lg:flex-row flex-col gap-8 max-w-7xl w-full">
+    <div className='font-outfit py-20 flex justify-center bg-[#e6e3d9] px-4 md:px-0'>
+        <div className="py-4 flex md:flex-row flex-col gap-8 max-w-5xl w-full items-center px-8">
 
-            <div className="lg:w-4/12 flex flex-col gap-y-2 items-center justify-center ">
+            <div className="md:w-[35%] flex flex-col gap-y-2 items-center justify-center ">
                 <img 
-                    src="https://www.pranavkonjeti.com/assets/pranavprofile-2fa6d5ac.jpg" 
+                    src={headshot}
                     alt="A picture of me! (Pranav Konjeti)" 
-                    className='rounded-md shadow-md w-full sm:w-1/2 lg:w-full'
+                    className='rounded-md shadow-md w-full md:w-full'
                 />
-                <div className='flex sm:flex-row flex-col gap-2 items-center'>
-                    <a href='https://me.pranavkonjeti.com' target='_blank' class="w-max flex items-center text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
-                        View my Portfolio
+                <div className='flex sm:flex-row flex-col gap-2 items-center w-full '>
+                    <a href='https://me.pranavkonjeti.com' target='_blank' className="w-full flex items-center justfiy-center text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
+                        <p className='w-full text-center'>View my Portfolio</p>
                     </a>
                     {/* <a href='https://drive.google.com/file/d/1CPUSBaFwPdwwFsnrXYgNnju5K6q5da7e/view?usp=sharing' target='_blank' class="w-max flex items-center text-lg h-12 px-4 bg-[#387e62] border-2 border-[#387e62] rounded shadow-md text-blue-50 transition300scale focus:outline-none">
                         Download my Resume
@@ -21,26 +26,56 @@ const AboutPranav = () => {
                 </div>
             </div>
 
-            <div className="lg:w-8/12 flex flex-col justify-center gap-y-2 text-[#1D4B40]">
+            <div className="md:w-[65%] flex flex-col justify-center gap-y-2 text-[#1D4B40]">
 
-                <div>
                     {/* <p className="paragraph-responsive tracking-wide font-light">
                         A bit about the Founder
                     </p> */}
+                                      <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-white">
+                    <IoChatboxEllipses className="h-8 w-8 text-main" />
+                  </span>
                     <h2 className="six-title font-semibold">
                         Hey, I'm
-                        <span className=" opacity-70">{' '}Pranav</span>
+                        <span className=" opacity-70">{' '}Pranav!</span>
                     </h2>
-                </div>
 
-                <p className='text-xl tracking-wide font-light leading-8'>
-
-                    I’m an incoming freshman studying <b>Computer Science @ UIUC</b> from Richmond, Virginia. I started building websites in my sophomore year 
-                    of high school and quickly fell in love with the process. For me, web development is a mix between logic and creativity. Over the past year, 
-                    I’ve had the opportunity to work with over 30+ different businesses and help improve their online presence!
+                <p className='text-xl tracking-wide leading-8'>
+                    I'm a current freshman studying Computer Science @ UIUC. I've always found web design and development to come naturally to me 
+                    and enjoyed the artistic/creative aspects of it. To date, I've had the amazing opportunity to run Thryve and work with over 25+ 
+                    different organizations ranging from nonprofits to startups to local businesses. I look forward to working with you/your company!
                 </p>
 
-                <div className='flex flex-col gap-y-2'>
+                <div className="flex space-x-4 items-center  gap-x-2">
+                    <a
+                      href="https://www.linkedin.com/in/pranav-konjeti/"
+                      target="_blank"
+                      className="contact-buttons-about"
+                    >
+                      <FaLinkedin className="text-2xl" />
+                    </a>
+                    <a
+                      href="mailto:pranavkonjeti@gmail.com"
+                      className="contact-buttons-about"
+                    >
+                      <FaMailBulk className="text-2xl" />
+                    </a>
+                    <a
+                      href="https://github.com/PkTheCoda"
+                      target="_blank"
+                      className="contact-buttons-about"
+                    >
+                      <FaGithub className="text-2xl" />
+                    </a>
+                    <a
+                      href="https://thryvedesign.com"
+                      target="_blank"
+                      className="contact-buttons-about"
+                    >
+                      <MdOutlineBusinessCenter className="text-2xl" />
+                    </a>
+                </div>
+
+                {/* <div className='flex flex-col gap-y-2'>
                     <h2 className="four-title font-medium mt-2 opacity-80">
                         My Past Experience:
                     </h2>
@@ -52,10 +87,10 @@ const AboutPranav = () => {
                         Today, I’m focusing on building my <a href="https://www.youtube.com/watch?v=yoCWJ0LHDfU&t=32s" target='_blank' className='underline'>edtech startup</a> {' '}
                         while also freelancing for companies & businesses around the world.
                     </p>
-                </div>
+                </div> */}
                 
                 <>
-                    <dl class="bg-white dark:bg-gray-800 rounded-lg shadow-lg sm:grid sm:grid-cols-3 mt-2">
+                    {/* <dl class="bg-white dark:bg-gray-800 rounded-lg shadow-lg sm:grid sm:grid-cols-3 mt-2">
                         <div
                             class="flex flex-col items-center justify-center p-6 text-center border-b border-gray-100 dark:border-gray-700 sm:border-0 sm:border-r">
                             <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500 dark:text-gray-400" id="item-1">
@@ -86,11 +121,7 @@ const AboutPranav = () => {
                             30+
                             </dd>
                         </div>
-                    </dl>
-                    <p className='text-md tracking-wide font-light leading-9 italic'>
-                        *Take a look at my <a href="https://me.pranavkonjeti.com" className="underline">portfolio site</a> 
-                        {' '}and resume if you're curious on what exactly I've built!
-                    </p>
+                    </dl> */}
                 </>
 
 

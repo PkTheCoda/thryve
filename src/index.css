@@ -88,4 +88,8 @@
   .testimonial-block {
     @apply bg-[#1e512c] px-2 rounded-md text-[#faf7ee] shadow-md
   }
+
+    .contact-buttons-about {
+    @apply text-[#1D4B40] w-14 bg-white shadow-sm flex justify-center p-4 rounded-lg transform transition hover:scale-110
+  }
 }

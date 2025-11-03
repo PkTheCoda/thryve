@@ -14,8 +14,8 @@ const Homepage = () => {
     <>
         <Hero />
         <MainFeatures />
-        <AboutPranav />
         <PricingHome />
+                <AboutPranav />
         <Testimonial />
         {/* <OurProjects /> */}
         <ContactForm />

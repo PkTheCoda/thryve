@@ -9,7 +9,7 @@ import { PiPaintBrushBroadFill } from "react-icons/pi";
 
 const PricingHome = () => {
   return (
-    <div className='py-10 bg-main flex flex-col items-center justify-center font-outfit'>
+    <div className='py-20 bg-main flex flex-col items-center justify-center font-outfit'>
         <div className="max-w-7xl py-4 w-full text-main flex flex-col gap-y-14 px-4">
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2'>
