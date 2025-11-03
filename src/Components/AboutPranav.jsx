@@ -31,9 +31,6 @@ const AboutPranav = () => {
                     {/* <p className="paragraph-responsive tracking-wide font-light">
                         A bit about the Founder
                     </p> */}
-                                      <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-white">
-                    <IoChatboxEllipses className="h-8 w-8 text-main" />
-                  </span>
                     <h2 className="six-title font-semibold">
                         Hey, I'm
                         <span className=" opacity-70">{' '}Pranav!</span>
