@@ -237,7 +237,7 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="p-10 text-[#142d27] bg-[#acebad] rounded-md shadow-md flex flex-col gap-y-2 relative rotate-1 top-8 right-4">
+          <div className="p-10 text-white bg-[#705531] rounded-md shadow-md flex flex-col gap-y-2 relative rotate-1 -top-4 md:top-8 md:right-4">
       
             <div className="flex gap-x-2 items-center text-xl font-light">
               Your Business after a website
@@ -250,25 +250,25 @@ const Hero = () => {
               <ul class="mt-4 space-y-3 text-base sm:text-xl">
                 <li class="flex items-start gap-3">
                   <div class="shrink-0 py-1.5">
-                    <svg class="fill-error-200 h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
+                    <svg class="fill-white h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
                   </div>
                   Dominate online searches: Get found by potential customers looking for your products or services
                 </li>
                 <li class="flex items-start gap-3">
                   <div class="shrink-0 py-1.5">
-                    <svg class="fill-error-200 h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
+                    <svg class="fill-white h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
                   </div>
                   Reach beyond borders: Attract clients from anywhere.
                 </li>
                 <li class="flex items-start gap-3">
                   <div class="shrink-0 py-1.5">
-                    <svg class="fill-error-200 h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
+                    <svg class="fill-white h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
                   </div>
                   Convert visitors 24/7: Your website works even when you don't.
                 </li>
                 <li class="flex items-start gap-3">
                   <div class="shrink-0 py-1.5">
-                    <svg class="fill-error-200 h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
+                    <svg class="fill-white h-3 w-3" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg>
                   </div>
                   Look credible: Build instant trust with a professional presence.
                 </li>

@@ -38,7 +38,7 @@
   }
 
   .six-title {
-      @apply xl:text-6xl lg:text-5xl text-4xl
+      @apply xl:text-6xl text-5xl 
   }
 
   .seven-title {
@@ -86,10 +86,10 @@
   }
 
   .testimonial-block {
-    @apply bg-[#1e512c] px-2 rounded-md text-[#faf7ee] shadow-md
+    @apply bg-[#1D4B40] px-2 rounded-md text-[#faf7ee] shadow-md
   }
 
     .contact-buttons-about {
-    @apply text-[#1D4B40] w-14 bg-white shadow-sm flex justify-center p-4 rounded-lg transform transition hover:scale-110
+    @apply text-[white] w-14 bg-[#1D4B40] shadow-sm flex justify-center p-4 rounded-lg transform transition hover:scale-110
   }
 }

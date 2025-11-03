@@ -163,7 +163,7 @@ const PricingHome = () => {
             </div>
 
         </div>
-        <div className='text-base text-center opacity-60'>
+        <div className='text-base text-center opacity-60 px-6'>
             Are you a nonprofit or student run organization? <a href="mailto:pranavkonjeti@gmail.com" className='text-blue-700 underline'>Contact Us</a> {' '} and we'll offer you a <b>20%</b> discount.
         </div>
     </div>
